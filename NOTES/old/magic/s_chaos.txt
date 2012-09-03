@@ -1,0 +1,110 @@
+
+ =========
+  CHAOS
+ =========
+
+
+
+	templio della distruzione
+		Attacca con un incantesimo a caso chi arriva,
+		tutte le unit… partono con 1 chaos channels
+
+
+	Rare	: 4/4
+	Uncommon: 12/16
+	Common	: 25/32
+
+	Corruption passed to Death
+	Berserk gained from Death
+
+	RARE
+		Armageddon
+		Call The Void
+		Chaos Surge		Changed
+		Great Drake
+
+	UNCOMMON
+		Beholder		ex Chaos Spawn
+		Call Chaos
+		Chaos Gates		ex Doom Mastery, changed
+		Doom Bolt
+		Disintegrate
+		Fire Storm
+		Flame Strike
+		Great Wasting
+		Hydra
+		Star Falls (Metor Storm)
+		Raise Volcano
+		Warp Lightning
+
+	COMMON
+		Berserk			from Death
+		Burn			New
+		Chaos Channels
+		Chaos Rift
+		Chimeras
+		Disrupt
+		Doom Bat
+		Efreet
+		Eldritch Weapon
+		Flame Blade
+		Fire Ball
+		Fire Bolt
+		Fire Elemental
+		Fire Giant
+		Hell Hounds
+		Immolation
+		Inferno			New
+		Lightning Bolt
+		Magic Vortex
+		Metal Fires
+		Morph Terrain		New
+		Shatter
+		Wall Of Fire
+		Warp Creature
+		Warp Reality
+		Warp Wood
+		Burn Wood		New
+
+
+ BURN (Common)
+	Casting Cost: 60 / -
+	Target: Enemy Unit
+	Each Turn until combat ends every figure in the target unit must make 3
+	resist or take 1 hit.
+
+ Burn Wood (Common)
+	Will transform a forest into a hill, grassland, or swamp.
+
+ Inferno (Common)
+	Casting Cost: 40 / -
+	Target: Combat Map Square
+	Fills a 5x5 area with flames, lasting 4 combat turns.
+	Each unit within the area will suffer a fire magical attack fo strenght
+	4, decreasing of 1 each turn.
+
+
+ Morph Terrain (Common)
+	Casting Cost: 200
+	Target: Overland Map City Area
+	Each turn changes randomly terrain in 1/4 cells of the area, and has 20%
+	chanche to fade away.
+	It cannot be cast in an area where the spell is already active.
+
+ CHAOS SURGE (Rare)
+	Upkeep: 50
+	Casting Cost: - / 1500
+	Target: Overland
+	Adds +3 to all Chaos unit's direct attacks (Melee, Breathe....).
+	Adds +2 to all Chaos unit's Resistance.
+	Chaos units cannot be banished.
+	Warp Reality is considered ALWAYS in effect.
+
+ CHAOS GATES (Uncommon)
+	Upkeep: 20
+	Casting Cost: - / 1500
+	Target: Overland
+	All friendly non magical unit (heroes included) have a 10% chance each
+	turn to gain a Chaos Channel mutation, up to complete mutation.
+
+EOF ===========================================================================

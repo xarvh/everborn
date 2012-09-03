@@ -1,0 +1,76 @@
+
+Le unità vengono raggruppate non appena un comando di movimento
+viene impartito.
+Se le unità hanno velocità diverse, un simbolo dovrebbe apparire
+vicino al mouse per avvertire che alcune unità sono rallentate.
+
+
+
+
+ORDERS:
+	    OLand/Battle	Requisiti	Target?		Immediato?	Fallback
+    WAIT	ob		-		-		no
+    HOLD	ob		-		-		no
+    MOVE	ob		-		cella (dest)	no
+    UPGRADE	o		city		tipo		no
+
+    WAVE	 b		-		-		no
+    ATTACK	ob		-		unità		no
+    RAZE CITY	o		city		-		si
+
+    SETTLE	o		settler		-		si		HOLD
+    B ROAD	o		engi		cella (dest)	no		GOTO?
+    B CATAPULT	o		engi		-		no		HOLD
+
+specials:
+    SHIFT	ob		shift		-		si		-
+    NODEMELD	ob		meld		nodo		si/no		MOVE/GOTO
+    PURIFY	o		purify		-		no		HOLD
+
+
+dall'interfaccia bisogna poter vedere chi effettivamente puó eseguire il comando
+
+
+
+
+OVERLAND ORDERS INTERFACE
+    wait	: na
+    hold	: na
+.    goto	: destination map XY, show path and turns required
+.    upgrade	: available utype
+.    chase	: unit
+    raze	: confirm yes/no
+    settle	: city name (with suggestion)
+.    road	: destination map XY, show path and turns required
+.    catapult	: na
+
+
+    HOLD
+
+
+
+	    OLand/Battle	Requisiti	Target?		Immediato?	Fallback
+    WAIT	o		-		-		no
+    HOLD	o		-		-		no
+    TRAVEL	o		-		cella (dest)	no
+    UPGRADE	o		city		tipo		no
+
+    WAVE	 b		-		-		no
+    ATTACK	ob		-		unità		no
+    RAZE CITY	o		city		-		si
+
+    SETTLE	o		settler		-		si		HOLD
+    B ROAD	o		engi		cella (dest)	no		GOTO?
+    B CATAPULT	o		engi		-		no		HOLD
+
+specials:
+    SHIFT	ob		shift		-		si		-
+    NODEMELD	ob		meld		nodo		si/no		MOVE/GOTO
+    PURIFY	o		purify		-		no		HOLD
+
+
+
+
+
+[eof]
+

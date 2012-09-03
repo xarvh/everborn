@@ -1,0 +1,125 @@
+
+ XARVH HEROES
+
+ Heroes are randomly spawned from cities: they will travel on the map searching for glory
+ and fame, and may offer their service to a wizard.
+ When standard a unit reaches Elite level, it has chance to became an hero.
+ The newborn hero may ask to leave the army (and maybe rejoin later) or a promotion.
+ Refusing both promotion and freedom will cause the hero and surrounding units to reduce
+ their loyalty.
+
+ Chances of city spawning an hero:
+  1 on 1000 per city per turn
+  modified by number of heroes around.
+
+ Chances of Elite Unit becaming Hero:
+  1 on 1000 per Elite unit per turn
+  modified on number of heroes around
+
+ When a hero is created, it will be assigned all the HeroDefaultSpecials
+ plus some (no more than 4) from the HeroAllowedOptionals.
+ Also, each Hero had 1 on 100 chance to gain a generical Skill.
+
+ Specials can be divided into Concepts (not cumulable) and Skills.
+ Unit Gold Upkeep will be twice the standard unit.
+ A Unit that already has a magic weapons will have the weapon in one of
+ the Item Slots.
+
+ Heroes Concepts (stored in a_unit_t)
+ CONCEPT	BONUS		FREQUENCY	MaxBonus
+
+ Warrior	+1 Melee	2 Levels	6
+		+1 Hit		2 Levels	6
+		+1 Armor	3 Levels	4
+		+1 ToHit	6 Levels	2
+
+ Magician	+5 MP		1 Level		60
+		+1 Range	2 Levels	6
+		+1 Resist	4 Levels	3
+		+1 ToHit	6 Levels	2
+
+ Priest		+3 MP		1 Level		36
+		+1 Range	3 Levels	4
+		+1 Melee	4 Levels	3
+		+1 Hit		4 Levels	3
+		+1 ToHit	6 Levels	2
+		+1 Fr.Resist	3 Levels	4
+
+ Archer		+1 Range	2 Levels	6
+		+1 ToHit	4 Levels	3
+
+ SKILL		BONUS			FREQUENCY	MaxBonus
+ Strength	+1 Melee		2 Levels	6
+ Fortitude	+1 Hit			2 Levels	6
+ ??		+1 Armor		2 Levels	6
+
+ Leadership	+1 Friendly Melee	3 Levels	4
+		+2 Friendly Loyalty	1 Level		24
+ Legendary	+1 Fame			2 Levels	24
+ Arcane Power
+ Sage
+ Charmed
+ Noble
+ Luck
+ Pathfinder
+ WindWalker
+ Scouting
+ Dreadful
+
+
+ MAX: Melee/Range
+    Leadership and Holy Bonus do not apply.
+
+    Average:		5 (Max: 10, Gnoll Zweihander)
+    Level:		3
+    Concept (Warrior):	6
+    Skill (Potens):	6
+    Item (Weapon)	5
+    Item (Misc)		2
+    Item (Misc)		2
+    Enchantements:	6 (Lionheart, FlameBlade, GiantStrenght)
+
+    Total:		35 (Max: 40, Gnoll Zweihander)
+
+
+ MAX: ToHit
+    Average:		3 (Max: 4)
+    Level:		2
+    Concept (Archer):	3
+    Item (Weapon):	2
+    Enchantements:	1 Holy Weapon
+    
+    Total:		11 (Max: 12)
+
+
+ MAX: Armor
+    Average:		4 (Max: 10, Golem)
+    Level:		3
+    Concept (Warrior):	4
+    Skill (Celeritas):	6
+    Item (Armor):	8
+    Item (Misc):	2
+    Item (Misc):	2
+    Enchantements:	10 (Iron Skin, Demon Skin, Holy Armor)
+    
+    Total:		39 (Max: 45, Golem)
+
+
+ MAX: Resistance
+    Holy Bonus does not apply.
+    Average:		6 (Max: 10, Warlocks)
+    Level:		3
+    Concept (Priest):	4
+    Item (Armor):	4
+    Item (Misc):	2
+    Item (Misc):	2
+    ResistForAll:	2
+    Enchantements:	3 (Lionheart)
+
+    Total:		26
+
+
+
+
+
+[EOF]

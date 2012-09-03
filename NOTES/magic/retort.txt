@@ -1,0 +1,118 @@
+
+ RETORT.TXT
+ by Francesco Orsenigo
+ Updated 6 August 2002
+ Xarvh Documentation: http://freeweb.lombardiacom.it/xarvh/
+
+ This file describes all the retorts available to Realm Wizards.
+ Runic Wizards Retorts will be added soon.
+
+ 'R:' stands for 'Requirement' and tells what is needed to access the retort.
+
+
+	ALCHEMIST
+	R: None.
+	 - Magic weapons to all normal units.
+	 - Full share between gold & mana.
+	 - Every city with a library is allowed to build an Alchemist's Guild.
+
+	#ANNIHILATOR
+	R: 3 Chaos Spellbooks
+	 - Doubles direct attack spells damage.
+	 - +50% to Wizard Range attack.
+	 - +30% in direct attack spells research.
+
+
+	ARCHMAGE
+	R: None
+	 - Initial skill +10.
+	 - +100% Bonus on all mana spent to increase Skill.
+	 - Doubles spell chance to resist vs. dispel.
+
+	ARTIFICER
+	R: None.
+	 - Start with Create Arifact and Enchant Item spells.
+	 - Halves Create Artifact & Enchant Item csting cost.
+	 - Higher limit for artifact stats.
+
+	LIGHTLORD
+	R: Requires 2 Life SpellBooks
+	 - Doubles mana obtained from religious buildings.
+	 - Doubles unrest reduction from religious buildings.
+	 - Raises all heroes and normal units loyalty.
+
+	CHANNELLER
+	R: None.
+	 - Halves manteniance spell cost.
+	 - No distance multiplyer for spell cost.
+
+	CHARISMATIC
+	R: None.
+	 - Diplomacy bonus with cities.
+	 - Halves purchase cost (Mercenaries/Heroes/Items).
+	 - Increases number of cities controllable with reasonable unrest.
+
+	CONJURER
+	R: None.
+	 - Can summon every unit in combat as well as in overland.
+	 - Halves summoned creatures manteniance cost.
+	 - Halves summon spell casting and research cost.
+
+	DARKLORD
+	R: Requires 2 Death SpellBooks
+	 - Doubles mana obtained from religious buildings.
+	 - Doubles unrest reduction from religious buildings.
+	 - Raises all heroes and normal units loyalty.
+
+	FAMOUS
+	R: None.
+	 - Start with 10 Fame.
+	 - Doubles chance of hiring heroes and mercenaries or purchasing items.
+
+	CHAOSLORD
+	R: Requires 3 Chaos SpellBooks.
+	 - Doubles mana obtained from Chaos Nodes.
+	 - Doubles Chaos spell chance to resist vs. dispel.
+	 - Halves Chaos spell casting and research cost.
+
+	NATURE MASTER
+	R: Requires 3 Nature SpellBooks.
+	 - Doubles mana obtained from Nature Nodes.
+	 - Doubles Nature spell chance to resist vs. dispel.
+	 - Halves Nature spell casting and research cost.
+
+	SORCERY MASTER
+	R: Requires 3 Sorcery SpellBooks.
+	 - Doubles mana obtained from Sorcery Nodes.
+	 - Doubles Sorcery spell chance to resist vs. dispel.
+	 - Halves Sorcery spell casting and research cost.
+
+	MYRRAN
+	R: None.
+	 - Start on Myrror with Myrran Race.
+
+	NODES MASTER
+	R: 1 SpellBook of Sorcery, 1 of Chaos, 1 of Nature.
+	 - Doubles mana obtained from nodes.
+	 - Spells are immune to node's dispel.
+	 - Knowledge of all nodes positions in all planes and their power.
+
+	RUNEMASTER
+	R: None.
+	 - The player can choose Runic picks, and have Runic Magic.
+	 - The player can choose retorts reserved to Runic Wizards.
+	 - Halves Arcane spell casting cost.
+
+	SAGE
+	R: None.
+	 - +50% research in all six realms.
+	 - Sage forecasts global events.
+	 - Can research location of Ancent Items.
+
+	WARLORD
+	R: None.
+	 - Level Up for all normal units.
+	 - The Wizard itself has Leadership.
+	 - Increases Wizard Melee stat by +10.
+
+[EOF]

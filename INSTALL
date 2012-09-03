@@ -1,0 +1,42 @@
+
+HOW TO COMPILE ----------------------------------------------------------------
+Ensure that you have the following libraries developement headers:
+    OpenGL
+    SDL
+    libpng
+and just run 'make'.
+
+
+HOW TO RUN --------------------------------------------------------------------
+Download the game data from http://everborn.sourceforge.net/download.html ,
+unpack it somewhere.
+From within the directory containing the data, run the 'everborn' executable.
+
+There may be problems connecting to the server.
+If so, spawn a separate server process running 'everborn dedicated' and, from
+the main menu, select "Join Game".
+
+
+HOW TO CREATE A RCFILE --------------------------------------------------------
+Create a .everborn file in your home directory; inside you can specify some
+default commands, for example:
+
+#this is the location of the data files
+set basedir /usr/local/games/everborn/
+
+# this is to specify 1024x768 fullscreen mode
+set screen 1024x768
+
+# this is to specify windowed mode
+set screen w
+#or
+set screen w640x480
+
+# player name
+set name Lord Wurstel
+
+# debug: host a game and haste to OverlandMenu.
+set fast yes
+
+
+[EOF] -------------------------------------------------------------------------

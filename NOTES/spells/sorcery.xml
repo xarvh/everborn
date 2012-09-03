@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="realm.css"?>
+<!DOCTYPE realm SYSTEM "realm.dtd">
+
+<realm>
+    <name>Sorcery</name>
+    <info>
+    Mind and Soul, Intelligence and Reason, all of those can be affected
+    by the force that links consciousness with the Universe....
+    </info>
+
+    <book>
+	<name>Ars Magica</name>
+	<history>
+	History of an Old Dream...
+	</history>
+
+	<spell>
+	    <name>Great Unsomming</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Mind Storm</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Sky Drake</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  25</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Suppres Magic</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  50</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1250</cost>
+	</spell>
+
+	<spell>
+	    <name>Banish</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Banish</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Banish</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Banish</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Banish</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Creture Binding</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  70</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Disjunction True</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Djinn</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  17</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 650</cost>
+	</spell>
+
+	<spell>
+	    <name>Flying Fortress</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  25</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Magic Immunity</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  25</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Mass Invisibility</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  80</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Binding</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Blast</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Ward</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 350</cost>
+	</spell>
+
+	<spell>
+	    <name>Statis</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Storm Giant</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Air Elemental</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Aura Of Majesty</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 400</cost>
+	</spell>
+
+	<spell>
+	    <name>Blur</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Confusion</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  15</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Counter Magic</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Disenchant True</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Dispel Magic True</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Enchant Road</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Flight</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>  25</bcost>
+	    <cost> 125</cost>
+	</spell>
+
+	<spell>
+	    <name>Floatig Island</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Guardian Wind</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Haste</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Invisibility</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost> 175</cost>
+	</spell>
+
+	<spell>
+	    <name>Nagas</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   2</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Phantom Beast</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Phantom Warriors</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Psionic Blast</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Resist Magic</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>  25</bcost>
+	    <cost>   5</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Lock</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep> 100</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   1</cost>
+	</spell>
+
+	<spell>
+	    <name>Vertigo</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  25</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Wind Mastery</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 400</cost>
+	</spell>
+
+	<spell>
+	    <name>Wind Walking</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Word Of Recall</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  20</cost>
+	</spell>
+
+	<spell>
+	    <name>Lake</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Mirror</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Phase</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Phantom Army</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+</book>
+</realm>

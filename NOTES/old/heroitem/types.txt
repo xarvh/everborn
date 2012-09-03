@@ -1,0 +1,33 @@
+
+				Std	Max	Artificer
+# Sword		Melee		+2	+4	+6
+		ToHit		+1	+2	+3
+		Cast		-	+10	+20
+		AP		-	X	X
+		FS		-	-	X
+
+# Axe		Melee		+3	+6	+8
+		ToHit		+1	+2	+3
+		AP		-	X	X
+		NFS		-	X	X
+
+# Mace		Melee		+1	+3	+5
+		ToHit		+1	+2	+3
+		AP		X	X	X
+
+# Bow		Range		+2	+4	+5
+		ToHit		+1	+3	+4
+		Cast		-	+10	+20
+		AP		-	X	X
+
+# Wand		Range		-	+4	+6
+		ToHit		-	+2	+3
+		Cast		-	+20	+30
+		AP		-	-	X
+		SpellCharges	-	1	4
+
+# Staff		Range		-	+2	+3
+		Cast		-	+30	+40
+		SpellCharges	-	1	4
+
+[EOF]

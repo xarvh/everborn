@@ -1,0 +1,67 @@
+ ==========
+  SORCERY
+ ==========
+
+
+	TimeStop removed.
+	Warp Time (combat spell) must be added
+
+	RARE
+		Great Unsummoning
+		Mind Storm
+		Sky Drake
+		Suppress Magic
+
+	UNCOMMON
+		Banish
+		Creature Binding
+		Disjunction True
+		Djinn
+		Flying Fortress
+		Magic Immunity
+		Mass Invisibility
+		Spell Binding
+		Spell Blast
+		Spell Ward
+		Statis
+		Storm Giant
+
+
+		Air Elemental
+		Aura Of Majesty
+		Blur
+		Confusion
+		Counter Magic
+		Disenchant True
+		Dispel Magic True
+		Enchant Road
+		Flight
+		Floating Island
+		Guardian Wind
+		Haste
+		Invisibility
+		Nagas
+		Phantom Beast
+		Phantom Warriors
+		Psionic Blast
+		Resist Magic
+		SpellLock
+		Vertigo
+		Wind Mastery
+		Wind Walking
+		Word Of Recall
+
+		Lake
+		Mirror
+		Phase
+		Phantom Army
+		Translucent Wall
+		Teleport
+		Magi (gives 2 or 1 ranged magical attack)
+		Spawn Settler of a magical race
+		Meld: can be used to meld any unit with a node
+		Alter Time: dimezza o raddoppia il tempo di un combattimento.
+		Citt… sull'acqua (non dispellabile)
+		Far Sight: BURP sight su di una unita' (uncommon)
+
+EOF ===========================================================================

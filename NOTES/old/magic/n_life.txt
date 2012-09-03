@@ -1,0 +1,5 @@
+
+
+Relax
+    combat
+    clears fatigue from all friendly units

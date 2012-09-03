@@ -1,0 +1,6 @@
+./configure --enable-static --disable-shared --disable-music-cmd	\
+--disable-music-wave --disable-music-libmikmod --disable-music-mod	\
+--disable-music-midi --disable-music-timidity-midi			\
+--disable-music-native-midi --disable-music-native-midi-gpl		\
+--enable-music-ogg --disable-music-ogg-shared --disable-music-mp3	\
+--prefix /home/nw/usr/libs

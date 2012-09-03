@@ -1,0 +1,39 @@
+
+
+
+STATS:
+    Accuracy	Ac	Attack/Defense accuracy
+    Swiftness	Sw	Action speed
+    Damage	Da	Melee Damage
+    Soak	So	Armor
+
+    Endurance	En	Resistance to tiredness
+    Stamina	St	Resistance to actual physical damage
+    Speed	Sp	Movement speed
+
+The HighMen Swordsman has 3 on each of those fields.
+
+
+
+MoM Swordsmen:
+    Danno per attacco: .9
+	0: .343x1	.343	 .81
+	1: .147x3	.441	 .01
+	2: .063x3	.189	1.21
+	3: .027x1	.027	4.41
+
+	Tot: .9 +o- 1.70
+
+    Difesa media per attacco: .6
+    Hits: 1
+	Danno subito: .3
+	Durata combattimento tra pari: 3.3 round
+
+Xarvh Swordsman:
+    Danno subito medio per attacco: 0.9
+    
+
+
+
+
+[EOF]

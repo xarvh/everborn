@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="realm.css"?>
+<!DOCTYPE realm SYSTEM "realm.dtd">
+
+<realm>
+    <name>Nature</name>
+    <info>
+    All green and murderous, protective and merciless.
+    </info>
+	
+    <book>
+	<name>Codex Hierno</name>
+	<history>
+	Winter, the Season of ice....
+	</history>
+
+	<spell>
+	    <name>Great Wyrm</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  20</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Metal Militia</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  30</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1250</cost>
+	</spell>
+
+	<spell>
+	    <name>Nature'S Wrath</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1250</cost>
+	</spell>
+
+	<spell>
+	    <name>Nature'S Awareness</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   7</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 800</cost>
+	</spell>
+
+	<spell>
+	    <name>Behemoth</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  15</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 700</cost>
+	</spell>
+
+	<spell>
+	    <name>Colossus</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  17</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 800</cost>
+	</spell>
+
+	<spell>
+	    <name>Call Lightning</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  60</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Earth Elemental</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  60</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Earth Gate</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Earthquake</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Elemental Armor</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost> 175</cost>
+	</spell>
+
+	<spell>
+	    <name>Gorgons</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  15</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 600</cost>
+	</spell>
+
+	<spell>
+	    <name>Ice Storm</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost> 200</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Iron Skin</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 300</cost>
+	</spell>
+
+	<spell>
+	    <name>Regeneration</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>  60</bcost>
+	    <cost> 300</cost>
+	</spell>
+
+	<spell>
+	    <name>Venom Weapon</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   2</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Basilisk</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   7</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 325</cost>
+	</spell>
+
+	<spell>
+	    <name>Change Terrain</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   7</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 325</cost>
+	</spell>
+
+	<spell>
+	    <name>Cockatrices</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   8</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 275</cost>
+	</spell>
+
+	<spell>
+	    <name>Craks Call</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Earth Lore</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  30</cost>
+	</spell>
+
+	<spell>
+	    <name>Earth To Mud</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  15</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Freeze</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Gaia'S Blessing</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 300</cost>
+	</spell>
+
+	<spell>
+	    <name>Giant Spiders</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   4</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Giant Strenght</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   8</bcost>
+	    <cost>  40</cost>
+	</spell>
+
+	<spell>
+	    <name>Herb Mastery</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Ice Bolt</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Move Fortess</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Nature'S Cures</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  75</cost>
+	</spell>
+
+	<spell>
+	    <name>Nature'S Eye</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  75</cost>
+	</spell>
+
+	<spell>
+	    <name>Pathfinding</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Petrify</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Resist Elements</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   5</bcost>
+	    <cost>  25</cost>
+	</spell>
+
+	<spell>
+	    <name>Sprites</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Stone Giant</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   9</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 450</cost>
+	</spell>
+
+	<spell>
+	    <name>Stone Skin</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Trasmute</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  60</cost>
+	</spell>
+
+	<spell>
+	    <name>Unicorns</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Wall Of Stone</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>War Bears</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   2</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  70</cost>
+	</spell>
+
+	<spell>
+	    <name>Basilisk</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Web</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+</book>
+</realm>

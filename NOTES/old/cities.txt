@@ -1,0 +1,94 @@
+
+
+Growth:
+
+food =
+    blds->pop_bonus	+		50
+    blds->food * 5	+		35
+    max_food() / 20	+		180	
+
+    FAMINE: food /= 2
+
+
+growth =
+	food		+		187 + 120
+	FOREST (20)	+
+	race growth	+		30
+
+
+
+    
+
+
+========================================================================
+
+Wall & Wall crushers:
+
+Ogni tipo di muro ha una sua difesa:
+una difesa standard (scudi) e una difesa assoluta, che viene sottratta automaticamente
+al danno.
+
+Wall          Std Abs
+Stone         5   1
+Iron          10  2
+Mithril       15  3
+Adamantium    20  4
+
+CARPENTER|WALL_CRUSHER (Ingegneri!) riducono a 1/4 questi valori.
+I valori del muro di adamantio sono ridotti ad 1/4 contro mithril.
+
+====================================================================
+
+UnrestMalus% = (CitiesOwned*CitiesOwned*100) / (MaxCities*MaxCities)
+MaxCities = 10 ?
+Charismatic doubles MaxCities.
+
+====================================================================
+
+Condizioni Iniziali:
+(Tutte le citta' partiranno con Farmers, Shrine, Barracks, Library)
+Se non  disponibile un edificio, `v` viene ridotto di 1.
+Bonus in denaro/mana al posto degli edifici?
+
+Plus bonus:
+Nightshade	1.2
+Cattle		1.8
+Adamantium	2.5	(1.5) (da modificare, possono essere sfruttati anche da runic magic)
+Mithril		2	(1.2)
+Quork		1.5
+Crysx		1.8
+Coal		1.5
+Iron		1.2
+Gold		1.5
+Silver		1.2
+Gem		1.8
+
+Base = max_land_pop * (100 + Gold_bonus) * (100 + Work_bonus)
+v = (base*tutti_i_plus_bonus-150000)/80000
+
+if(v < 12)	+1 pop
+if(v < 11)	Granary
+if(v < 10)	+1 pop
+if(v <  9)	MarketPlace
+if(v <  8)	+1 pop
+if(v <  7)	Farmers Market
+if(v <  6)	Sawmill
+if(v <  5)	+1 pop
+if(v <  4)	Spearmen x2
+if(v <  3)	Swordsmen x2
+if(v <  2)	Settlers x1
+if(v <  1)	Add Wild Game
+
+pop base = 6
+
+====================================================================
+
+Name		From		 To		fig.
+Outpost		    0		 1000 -1	1
+Hamlet		 1000		 5000 -1	2
+Village		 5000		10000 -1	3
+Town		10000		13000 -1	4
+City		13000		17000 -1	5
+Big City	17000		25000 (?)	6
+
+[EOF]

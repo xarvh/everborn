@@ -1,0 +1,23 @@
+
+<!ELEMENT realm (name, info, book+)>
+    <!ELEMENT id (#CDATA)>
+    <!ELEMENT name (#CDATA)>
+    <!ELEMENT info (#CDATA)>
+    <!ELEMENT book (name, history, spell+)>
+	<!ELEMENT history (#CDATA)>
+	<!ELEMENT spell (
+	    type,name,info,
+	    gfx?,unit?,targA?,targS?,
+	    rank,upkeep?,know,cost,bcost?,
+	    code )>
+	    <!ELEMENT type (#CDATA)>
+	    <!ELEMENT gfx (#CDATA)>
+	    <!ELEMENT unit EMPTY>
+	    <!ELEMENT targA (#CDATA)>
+	    <!ELEMENT targS (#CDATA)>
+	    <!ELEMENT rank (#CDATA)>
+	    <!ELEMENT upkeep (#CDATA)>
+	    <!ELEMENT know (#CDATA)>
+	    <!ELEMENT cost (#CDATA)>
+	    <!ELEMENT bcost (#CDATA)>
+	    <!ELEMENT code(#CDATA)>

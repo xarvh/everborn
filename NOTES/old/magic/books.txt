@@ -1,0 +1,27 @@
+
+Initial Picks: 6
+
+	KnownSpells	Known Spells	CastCost	Upkeep
+Books	(Common)	(Uncommon)
+
+ 1	none		none
+ 2	up to  5	none
+ 3	up to 10	none
+ 4	up to 15	none		-10%		
+ 5	up to 20	none		-20%		-10%
+ 6	up to 24	1		-30%		-20%
+
+ 7					-40%		-30%
+ 8					-50%		-40%
+ 9					-60%		-50%
+10					-70%		-60%
+11					-80%		-70%
+12					-90%		-80%
+
+Greater	4	1	-	8 per realm
+Lesser	-	2	1	4 per realm (requires 2 lesser picks)
+
+I libri prendono nome a seconda dall'incantesimo piu' potente che contengono
+I libri sono necessari sia per ricercare un incantesimo che per lanciarlo
+
+EOF ===========================================================================

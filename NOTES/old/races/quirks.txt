@@ -1,0 +1,45 @@
+
+
+	Klackon:	5
+	Gnoll:		30
+	Lizardmen:	110
+
+
+		Bonus	PT		Malus	PT
+
+	Melee:	+1	15
+		+2	30
+	Range:	+1	40
+	Armor:	+1	10
+		+2	20
+	Hits:	+1	15
+	ToHit:	+1	20
+	Resist:	+1	10		-1	15
+	Fig.:	+2	15		-2	20
+
+	UCost:	50%	40		150%	15
+					200%	20
+
+	No Ships:	-20
+	Swim:		30
+	Flight:		40
+	Myrran:		-50
+	WorkB:		25
+	FarmB:		25
+	Land:		20
+	Shore:		30
+	Sea:		40
+
+	Temple: 0	-60	None
+		1	-30	Shrine
+		2	0	Temple
+		3	10	Parthenon
+		4	20	Cathedral
+
+	Rez:	0	-60	None
+		1	-30	Library
+		2	-20	Sages Guild
+		3	10	University + Alchemists Guild
+		4	30	Wizard Guild + Magicians
+
+[EOF]

@@ -1,0 +1,66 @@
+
+Ljos
+    -20 gr
+    MANA POP
+    +1 ToHit
+    +2 Res
+    Forester
+    Cost: x1.5
+    No Parth, No Marit.Guild
+
+    Settlers
+    Spearmen
+    Swordsmen
+    Halberdiers
+    Cavalry
+    Longbowmen	bowmen Ra3 Go2 Cos80
+    Magicians	Ra5 Re10 Sp2 Co180
+
+    ElvenLords	Fi4	Me5 De4 Re9 Li3		Co160 Go4	AP FS
+    Pegasai	Fi2	Me5 De4 Re8 Li5 Ra3 Sp3	Co160 Go4
+
+    -------------------
+    No Pegasai, no elven lords
+    Druid	[shaman] + pathfinding
+    ?Sniper	Ra3 + AP + FDODGE + incorporeal + sp5?
+    No miners guild
+
+
+Svart
+    -20 pop
+    2x MANA POP
+    +3 Re
+    +1 Ra
+    Cost: x2.5
+    No Cathedrals, No Maritime Guilds
+
+    Settlers
+    Spearmen
+    Swordsman
+    Halberdiers
+    Cavalry
+
+    Priests	Me3 Ra6 De4 Re10 Fi4	Go4 Co200	HEA PUR HEA_SP
+
+    Nightblades	Me4 De3	Po1 Ra0	Fi4	Go3 Co120	INV
+    Warlocks	Me1 De4 Re9 Ra7 Fi4	Go5 Co240	DEF_MISS DOOM_SP
+
+    Nightmares	Me8 Ra5 De4 Re8 Li10	Go4 Co160 Sp3	
+
+
+    -----
+    No Priests -> Shamans
+    POPMANA normale
+    No Parthenon
+    No miners guild
+
+
+
+
+
+High Men
+    Bowmen	G1 Co30
+    Priests	G2 Co100	Me3 Ra4 De4 Re7 Fi4
+    Mag		G3 Co120	Me1 Ra5 De3 Re8 Fi6
+
+

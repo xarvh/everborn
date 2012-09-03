@@ -1,0 +1,23 @@
+
+
+	Flaming		Chaos		+3Atc
+	Lightning	Chaos|Sorcery	+3Atc AP
+	Burning		Chaos		+3Atc Burn
+	Stormbringer	Sorcery		CallLightning
+	Lightbringer	Life		TrueLight
+	HolyAvenger	Life		HolyBonus DispelEvil
+
+	Immortal	6Life&A		Hero back to tower when killed
+	Angels		6Life&A		Summons up to 4 ArchAngels
+
+	Solo eroi leggendari possono tenere pi— di 1 oggetto leggendario.
+
+
+
+
+
+
+
+
+
+[EOF]

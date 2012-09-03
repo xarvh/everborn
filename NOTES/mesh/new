@@ -1,0 +1,34 @@
+
+nome: [r|l] CODE [nome] RxH
+
+r	: solo a destra (invece che da enrambe le parti)
+
+l	: solo a sinistra (invece che da enrambe le parti)
+
+CODE	:
+    HEAD	Testa
+    TORSO	Torso
+    UARM	Upper Arm
+    LARM	Lower Arm
+    HAND	Hand
+    WEP		Weapon
+    ULEG	Upper Leg
+    LLEG	Lower Leg
+    FOOT	Foot
+
+nome	: lowercase.
+    se non specificato, la parte si considera di default.
+    la descrizione dell'unitá puó usare la stringa intera o solo il nome
+
+R	: float, mesh physical radius, used to mount other parts
+H	: float, mesh physical height, used to mount other parts
+
+
+
+R e H sono solo fisici, NON SCALANO l'oggetto:
+questo perché voglio poter confrontare gli oggetti tra loro nell'editor 3d.
+
+
+
+
+[EoF]

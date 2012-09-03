@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="28cm" height="12cm"
+     viewBox="0 0 7 3">
+
+  <!-- test circle - ->
+  <circle id=""
+	  fill="none" stroke="black" stroke-width=".005"
+	  cx="2.5" cy="1.5" r="1" />
+  -->
+
+
+  <!-- circle arcs, 9 12 -->
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 0.50, 2.50
+           C	 0.50, 1.95
+		 0.95, 1.50
+		 1.50, 1.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 1.50, 1.50
+           C	 1.50, 0.95
+		 1.95, 0.50
+		 2.50, 0.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 2.50, 2.50
+           C	 2.50, 1.95
+		 2.95, 1.50
+		 3.50, 1.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 3.50, 1.50
+           C	 3.50, 0.95
+		 3.95, 0.50
+		 4.50, 0.50" />
+
+
+
+  <!-- circle arcs, 12 3 -->
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 2.50, 2.50
+           C	 2.50, 1.95
+		 2.05, 1.50
+		 1.50, 1.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 5.50, 1.50
+           C	 5.50, 0.95
+		 5.05, 0.50
+		 4.50, 0.50" />
+
+
+  <!-- circle arcs, 3 6 -->
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 3.50, 1.50
+           C	 3.50, 2.05
+		 3.05, 2.50
+		 2.50, 2.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 4.50, 0.50
+           C	 4.50, 1.05
+		 4.05, 1.50
+		 3.50, 1.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 5.50, 1.50
+           C	 5.50, 2.05
+		 5.05, 2.50
+		 4.50, 2.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 6.50, 0.50
+           C	 6.50, 1.05
+		 6.05, 1.50
+		 5.50, 1.50" />
+
+
+  <!-- circle arcs, 6 9 -->
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 1.50, 1.50
+           C	 1.50, 2.05
+		 1.95, 2.50
+		 2.50, 2.50" />
+
+  <path id=""
+        fill="none" stroke="black" stroke-width=".01"
+        d="M	 4.50, 0.50
+           C	 4.50, 1.05
+		 4.95, 1.50
+		 5.50, 1.50" />
+
+</svg>

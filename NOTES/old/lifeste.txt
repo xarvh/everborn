@@ -1,0 +1,6 @@
+
+
+Per ogni punto di danno subito, il bersaglio deve effettuare un RESIST con
+penalit… pari al livello di LIFESTEAL dell'attaccante.
+Per ogni fallimento l'attaccante guadagna 1 HIT e il bersaglio aggiunge 1
+LIFESTOLEN

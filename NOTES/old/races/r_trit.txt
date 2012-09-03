@@ -1,0 +1,23 @@
+
+ ========
+ Tritons
+ ========
+
+ No Cathedral
+ No Miners Guild
+
+ WATER_CITY, MANA_BONUS
+
+ Growth: SLOW
+
+		Melee	Range	Def	Fig	Hits	Resist	Speed	Special
+ Spearmen	1	-	2	8	1	5	2:SWIM	WI
+ Snake		3	-	2	6	1	5	2:SWIM	WI POISON
+ Sappers	3	-	2	6	1	5	2:SWIM	WI BOAT
+ Jaws		8	-	4	4	6	6	4:SWIM	WI FS AP
+ Salamander	5	-	4	6	3	8	1+SWIM	FB I2F REGEN
+ Settlers	-	-	2	1	10	5	2:SWIM	WI
+
+
+
+[EOF]

@@ -1,0 +1,91 @@
+
+
+    lo skill é uno solo per ogni mago e viene ripristinato a d ogni inizio turno
+
+    c'é una coda di incantesimi, che contiene anche il targ
+
+    gli incantesimi della coda il cui costo di lancio é minore dello skill disponibile
+	sono marcati in qualche modo, e il giocatore puó decidere di lanciarli istantaneamente
+
+    c'é un valore dello skill accumulato nei vari turni: questo va a diminuire il costo di
+	lancio del primo spell nella queue
+
+    ogni incantesimo ha il suo comando
+    modificatori:
+	+	mette l'incantesimo in coda
+	n/a	pulisce la coda e comincia con l'incantesimo
+	-	versione temporanea delläincantesimo, niente coda
+
+
+
+
+
+
+
+=======================================================
+    cast [spellid]
+	mette in queue lo spell ('+' => battle queue invece che overland queue)
+	checkSpellReady()
+
+    checkSpellReady()
+	controlla che lo skill disponibile per il turno/combattimento sia
+	sufficente
+	(unificare battle spell e overland spell?)
+
+	se sufficente, il client interessato deve mandare
+	il comando per completare quel tipo di spell.
+	(gli spell senza argomenti si completano automaticamente)
+
+    cHero
+    cUnit
+    cCity
+    cMap
+    cWizard
+    cBattle
+    cNode
+    cEnchantement
+
+
+
+
+
+
+
+
+incantesimi:	icona/evocazione	animazione+suono
+realm:		simbolo
+book:		immagine
+
+-ad ogni spell corrisponde un comando
+-il comando viene lanciato con i necessari parametri
+    -> se overland spell
+	setta uno "spell status" del giocatore
+
+    Ogni volta che lo "spell status" viene aggiornato
+    si controlla se il mana/skill disponibile é maggiore di quello
+    necessario.
+	-> se si, lo spell viene lanciato, aprendo il menu necessario
+
+	una volta raccolti i parametri il menu lancia il comando
+	"spell [parametri]" che completa l'incantesimo, consumando mana e skill.
+	"spell cancel" interrompe lo spell, senza consumare mana/skill a parte
+	quelli giá usati nei turni precedenti.
+
+QUINDI
+    Mentre il comando iniziale, corrispondente al nome dello spell non prende
+    quasi parametri, il grosso dell'interpretazione viene fatta dal comando
+    "spell" che si occupa di completare l'incantesimo a seconda dei parametri
+    nello "spell status".
+
+    Come fa il comando spell a distingure tra overland spell e battle spell?
+    Servono 2 "spell status" separati?
+    -oppure-
+    con un "+" davanti lo spell diventa un battle spell,
+    reso effettivo da un "+spell"
+
+
+in sostanza->
+    col + i comandi spell diventano battle
+
+
+[eof]

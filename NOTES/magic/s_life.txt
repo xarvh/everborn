@@ -1,0 +1,156 @@
+
+ S_LIFE.TXT
+ by Francesco Orsenigo
+ Updated 2 Nov 2006
+ Xarvh Documentation: http://xarvh.sourceforge.net
+ 
+ This file contain all informations about the Realm of Life Magic.
+ At the moment is just an incomplete list of books/spells, and descriptions are
+ available only for changed items (and not all!)
+
+ Life Magic would still need 10 Common spells.
+ 'Purify Soul' spell must be added.
+
+ Realm of Life Magic:
+  - LIFE MAGIC
+  - BOOKS
+  - SPELLS LIST
+  - SPELLS DESCRIPTION
+  - CREATURES DESCRIPTION
+
+ ------------------------------------------------------------------------------
+ 
+  - LIFE MAGIC
+ Protect, enhance, punish.
+ Life Magic aim is to impose bliss and beauty, joy and wealth, and to crush
+ evil.
+ Great unit/city enhancement and a wide array of defensive spells, Life Magic
+ lacks cantrips and indirect spells resulting vulnerable to a smart Sorcerer
+ opponent.
+
+
+  - BOOKS
+ Maiores Libri:
+    Triumphus Astrorum
+    Primum Mobile
+    de Summo Caelo
+    Chori Angelorum
+
+ Minores Libri:
+    Precis Terrae
+    Voluminis Lunae
+    Mercuri Sermo
+    Veneris Collectionis
+    Canticum Solis
+    Testamentum Martium
+    Iovis Laude
+    Saturnius Nuntius
+
+
+  - SPELLS LIST
+ Rare
+    Crusade
+    High Prayer
+    Incarnation
+    Invulnerability
+
+ Uncommon
+    Altar of Battle
+    ArchAngel		Changed
+    Ascention		New
+    Charm of Life
+    Consecration
+    Holy Arms
+    Holy Word
+    Inspirations
+    Life Force
+    Lionheart
+    Mass Healing
+    Planar Seal
+    Prosperity
+    Righteousness	Changed
+    Stream Of Life
+    Tranquillity
+
+ Common
+    Angel		Changed
+    Angel Armor		New
+    Astral Gate
+    Bless
+    Destroy Road	New
+    Dispel Evil
+    Endurance
+    Guardian Spirit
+    Healing
+    Heavenly Light
+    Heroism
+    Holy Armor
+    Holy Fire		New
+    Holy Weapon
+    Just Cause
+    Planar Travel
+    Plane Shift
+    Prayer
+    Raise Fallen	was: Raise Dead
+    Resurrection
+    Restore Land	New
+    Star Fires
+    True Light
+    True Sight
+
+
+ - SPELLS DESCRIPTION
+ Ascention (Uncommon)
+    Upkeep: 20
+    Casting Cost: - / 400
+    Target: Friendly Elite/UltraElite/Crusader Fanatic units.
+    The Unit will keep all its prevous Life enchantemets at no upkeep cost.
+    The Unit will gain Holy Bonus, Dispel Evil and Flight.
+    The Unit will be Non-Corporeal and Immune to Illusions.
+    The Unit will be treated by all means as a Life Magical unit.
+    The Unit won't accept any further Life Unit Enchantement.
+    The Unit's Life Enchantements cannot be dispelled.
+    If Ascention is dispelled the unit is banished.
+
+ Angel Armor
+    Upkeep: 4
+    Casting Cost: 40 / 200
+    Target: Friendly Unit
+    Target unit receives defense 6.
+    The effect is not cumulable with Holy Armor.
+
+ Holy Fire (Common)
+    Casting Cost: 40 / -
+    Target: Enemy Death Unit.
+    Each Turn until combat ends every figure in the target unit must make 3
+    resist or take 1 hit.
+    Created Undeads take (4-Resist) damage.
+
+ Holy Armor (Common)
+    Upkeep: 2
+    Casting Cost: 20 / 100
+    Target: Friendly Unit
+    The target unit will gain +2 defense and +1 resist, and is immune to
+    Life Stealing.
+
+ Bless (Common)
+    Upkeep: 1
+    Casting Cost: 8 / 40
+    Target: Friendly Unit
+    The target unit will gain +3 defense and resistance against all
+    Death and Chaos direct or indirect spell effects and unit attacks.
+    If the unit is killed won't in any case raise as undead.
+
+ Righteousness (Uncommon)
+    Upkeep: 3
+    Casting Cost: 40 / 200
+    Target: Friendly Unit
+    The target unit will gain Immunity against all Death and Chaos direct
+    or indirect spell effects, and Defense 10 against unit attacks.
+    If the unit is killed won't in any case raise as undead.
+    The target is protected versus Blasphemia.
+
+ - CREATURES DESCRIPTION
+ Angel and ArchAngel will be slightly powered up.
+
+[EOF] =========================================================================

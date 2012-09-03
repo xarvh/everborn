@@ -1,0 +1,88 @@
+
+GAME VICTORY CONDITION
+
+A player wins when most of theother players recognize her mastery.
+
+Each player is randomly assigned a condition for which she'll be forced
+to recognise another's mastery.
+
+This considion is negotiable between any couple of players.
+
+
+
+
+A player wins the game when she meets the enemy victory conditions (EVC) of
+at least half of the other players.
+
+More than one player can be declared winner if they reach enough EVC at the
+same time.
+
+Each player has a Basic EVC that is normally unknown to the other players.
+
+Each player must always have at least one EVC in place for each of the other
+players: fallback is on the Basic EVC.
+
+EVCs between two players can be negotiated and agreed upon.
+It must be possible to craft such contract as to explicitly or implicitly allow
+ally victories.
+
+EVCs must be such that playing the game with no attention to them, a powerful
+enough player will eventually meet them all.
+
+When a player meets the EVC of another player, the event is declared to all
+and opportunely displayed in the Diplomacy menu, but the triggering EVC is not
+disclosed.
+(This means that who meets the EVC or who has a good overview of the current
+events may figure out what the triggering EVC was).
+
+A player can voluntarily disclose his basic EVC to another player.
+
+
+
+basic EVCs:
+"You will allow victory for a player that has:"
+	(absolute condition:) "half of the worlds..."
+	(relative condition:) "twice, with a minimum of XX, your..."
+	"...wealth"
+	"...contracts"
+	"...nodes"
+	"...cities"     
+	"...troops" (calculated as total production or summon cost and enchantements cost)
+	"...magic skill" (relative only)
+	"...known spells" (absolute only, and one quarter instead than half seems more likely)
+	"...books" (for the absolute, one quarter is enough)
+	"...retorts" (again, more one quarter than half)
+
+
+new retort: ("Machiavellian")
+    Can see all Contracts and all other's EVCs.
+    Halves WraithOfEverborns agains her.
+
+
+
+-------------------------------------------------------------------------------
+
+Advantages of the system:
+
+ * Allows players to just play without any regards to basic victory conditions,
+    a powerful enough player will eventually meet all requirements and win.
+
+ * Diplomacy becomes extremely powerful, important and twisted, as diplomacy is
+    supposed to be (in the game, diplomacy is partially binding).
+
+ * No need to ever kick out players from the game, as they cannot really "lose"
+    untill they lose all together.
+
+ * Possibility of multiple winner through "if I win, I declare you winner" type
+    contracts (diplomacy is to be based on contracts)
+
+
+
+
+
+
+
+
+
+
+EoF ===========================================================================

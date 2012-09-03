@@ -1,0 +1,31 @@
+
+	b:V = numero vertici
+
+	b:P = Numero di primitivi GL
+	    P volte:
+	    b:F	= Flags: STRIP, COLORED
+		    STRIP:	GL_TRIANGLE_STRIP invece di GL_TRIANGLE_FAN
+		    COLORED:	PlayerColor invece che Bianco
+	    b:N = Numero vertici del primitivo
+		N volte:
+		w:i = ID dei vertici
+		w:s = texture X
+		w:t = texture X
+
+
+	b:T = numero Tags
+	    16b: Nome
+	    w: ID vertice origine
+	    w: ID vertice Y
+	    w: ID vertice Z
+
+	b:A = Numero animazioni
+	    A volte:
+		16b: Nome
+		b:F = Numero Frames
+		F volte: V volte:
+		    ?:X
+		    ?:Y
+		    ?:Z
+
+[EoF]

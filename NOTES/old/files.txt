@@ -1,0 +1,12 @@
+
+
+    .raz	Race data		Shared and User
+    .mrl	General graphics	Shared and User
+    .png?	Portraits		Shared and User
+    .data	Grouped mrl		Shared and User
+    .xmap	Map			Shared and User
+    .lang	Language		Shared and User
+    .save	Saved game		User
+
+
+EOF

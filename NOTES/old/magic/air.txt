@@ -1,0 +1,85 @@
+
+ ========
+ AERE
+ ========
+
+
+
+
+
+Rare		3	3
+    Greater Air Elemental
+    Storm (global)
+    Sky Falls (un puttanaio di fulmini colpiscono tutte le unita' nemiche
+
+
+
+Uncommon	8	(12?)
+ # Remove Greater Water
+
+ # Air Elemental
+
+ # Flight
+  +1 speed flight
+
+ # Wind Mastery
+
+
+ # 
+
+
+ # Tornado
+  Combat. Will randomly throw (and damage) units away.
+  May damage a city.
+
+ # Wind Walking
+
+ # Greater Push
+  Pushes a stack of units in a selected direction
+
+ # Wind Fury
+  combat spell, -3 to hit all units in a direction
+  -1 land speed, flying units cannot fly
+
+ ==============================================================================
+ COMMON
+ ==================
+ Total: 18 up to 24
+
+ # Remove Lesser Water (Common or Uncommon)
+    Also destroys Earth Bridge
+
+ # Lesser Air Elemental
+
+ # High Winds
+  devia i proiettili
+  combat spell, -2 to hit enemy and friendly ranged
+
+ # Wind Rage
+  combat spell, -2 to hit all units in a direction.
+  Flying units lose 1 speed when moving in that direction.
+
+ # Lightning
+  Attacco
+
+ # Blizzard
+  Acceca temporaneamente tutte le unita' che non hanno ILLUSIONS_IMMUNITY
+
+ # Fog
+  -1 to hit to all but ILLUSIONS_IMMUNE
+
+ # Wind Wings
+  +2 land movement speed
+
+ # Push
+  Pushes a friendly or enemy unit in a random direction.
+ 
+ # Walking in the Air
+  Makes a unit fly.
+
+ # Wind Drive
+  Unit ench. +1 projectiles attack
+
+ #
+
+[EOF]

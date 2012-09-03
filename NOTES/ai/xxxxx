@@ -1,0 +1,69 @@
+/*
+ AI.CPP		v -1.0
+
+*/
+
+
+
+#include "game.h"
+#include "unit.h"
+#include "brain.h"	// definisce i giocatori
+#include "city.h"
+#include "spell.h"
+#include "race.h"
+#include "map.h"
+
+#include "cmd.h"
+
+/*=============================================================================
+ * LOCALS
+ *
+ * Qua puoi sistemare eventuali variabili che ti possono servire tra una
+ * chiamata e l'altra.
+ */
+static int current_startegy = 0;
+
+
+
+/*=============================================================================
+ * da 'gameC* game' puoi estrarre tutte le informazioni sul gioco, per
+ * esempio, 'game->Brains[0].Skill' é lo skill del giocatore 0.
+ *
+ * Self é il puntatore al tuo giocatore.
+ *
+ * La funzione viene lanciata ad ogni aggiornamento del gioco, quindi circa
+ * 5 volte al secondo.
+ *
+ * Una volta che hai preso una decisione, usi la funzione cmd() per dare un
+ * comando.
+ * per esempio, per selezionare le unitá u1 e u2 e muoverele nella cella X,Y:
+ *
+ * cmd("select %d", u1 - game->Units);	// select only u1
+ * cmd("+select %d", u2 - game->Units);	// add u2
+ * cmd("goto %d %d", X, Y);
+ *
+ * Ovviamente le funzioni che ci sono giá non sono fatte per fare 'sta roba,
+ * quindi se c'é qualcosa che potrebbe esserti utile posso aggiungertela.
+ *
+ * Per esempio, per avere il numero dell'unitá scrivere ogni volta
+ * 'unitá - game->Units' é una pena, quindi posso fare una funzione
+ * unitá->Id(), cosí scriveresti semplicemente:
+ *
+ * cmd("select %d", u2->Id());
+ */
+void stefoAI(gameC* game, brainC* self)
+{
+ if(current_strategy == 0)
+ {
+    cmd("msg I'm StefoAI, resistance is futile, you will be assimilated!");
+    current_strategy = 1; // meglio non mandare un messaggio 5 volte al secondo...
+ }
+
+
+
+
+}
+
+
+
+//EOF =========================================================================

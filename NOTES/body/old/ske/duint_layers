@@ -1,0 +1,15 @@
+
+
+layers of drawing a unit.
+
+
+
+
+utypeDisplayAct() utype, color
+utypeDisplayIdle() utype, color
+
+utypeDisplay()	utype(ske), color, (action, time), effects?
+fleshDraw()	utype, color, angles, effects?
+
+
+

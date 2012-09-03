@@ -1,0 +1,9 @@
+
+
+Quando un mago viene sconfitto, di tutti i libri, le rune e gli oggetti magici
+deve decidere quali mollare al mago vincitore e quali disperdere nei Mondi.
+Quindi puo' cominciare a lanciare Spell of Return, che dopo qualche turno
+lo rimettera' in gioco in un qualunque punto del mondo (conosciuto o sconosciuto),
+con una buona scorta di mana e UNO dei suoi oggetti magici.
+
+[EOF]

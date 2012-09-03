@@ -1,0 +1,63 @@
+
+ # Mouse in Land Menu
+
+	TARGET		LEFT MOUSE		RIGHT MOUSE
+	Unit		Select/Unselect
+	City					Enter City Menu
+	City+Unit	Select/Unselect Unit	Enter City Menu
+	Land		Command Unit		Unselect/Survey
+
+
+ # Custom
+	-EVENTS
+	L:	Left Mouse Click.
+	R:	Right Mouse Click.
+	M:	Mid Mouse Click.
+	l:	Left Mouse Down.
+	r:	Right Mouse Down.
+	m:	Mid Mouse Down.
+	C:	Pointing a City.
+	T:	Pointing a Team.
+	S:	Pointing a Selected Team.
+	A:	A Team is Selected.
+	N:	A Team is Not Selected.
+	-COMMANDS
+	a:		Allow consequent commands.
+	P:	(A req)	Give path to Selected Team in Pointed Cell.
+	C:	(C req)	Enter City Menu.
+	S:	(T req)	Select Team.
+	U:	(A req)	Unselect Team.
+	M:		Center Map.
+	I:		Surveyor.
+
+	-EX: AM
+		r:Ia
+		RC:C
+		RA:U
+		LA:P
+		LT:S
+	-EX: MOM
+		RC:C
+		RS:M
+		RT:S
+		R:M
+		LA:P
+
+typedef struct land_cms_s {
+	dword	ev;
+	dword	cmd;
+} land_cmd_t;
+
+
+
+find events
+for(any land_cmd) if(land_cmd->ev&events)
+    {
+	for(any bit) if(land->cmd& (1<<bit)) exec |= 1<<bit;
+	if(land_cmd->cmd&STOP) break;
+    }
+
+
+
+
+[EOF]

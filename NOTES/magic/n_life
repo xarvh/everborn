@@ -1,0 +1,126 @@
+
+#    Primum Mobile
+#    Precis Terrae
+#    Voluminis Lunae
+
+    *Triumphus Astrorum
+	Crusade
+	ArchAngel	Changed
+	Holy Word
+        Righteousness	Changed
+
+    *de Summo Caelo
+        Invulnerability
+        Charm of Life
+        Mass Healing
+        Stream Of Life
+
+    *Chori Angelorum
+        High Prayer
+        Lionheart
+        Planar Seal
+        Tranquillity
+
+
+
+    Mercuri Sermo
+        Life Force
+        Angel			Changed
+        Angel Armor		New
+        Planar Travel
+        True Light
+
+    Veneris Collectionis
+        Holy Arms
+        Prosperity
+        Healing
+        Astral Gate
+        Heroism
+
+    Canticum Solis
+        Incarnation
+        Bless
+        Just Cause
+X        Restore Land	New
+        Prayer
+
+    Testamentum Martium
+        Altar of Battle
+        Heavenly Light
+        Holy Armor
+        Dispel Evil
+        True Sight
+
+    Iovis Laude
+        Consecration
+        Inspirations
+        Guardian Spirit
+        Plane Shift
+        Resurrection
+
+
+    Saturnius Nuntius
+        Ascention		New
+        Endurance
+        Raise Fallen	was: Raise Dead
+        Holy Weapon
+        Star Fires
+
+
+    
+
+ - SPELLS DESCRIPTION
+ Ascention (Uncommon)
+    Upkeep: 20
+    Casting Cost: - / 400
+    Target: Friendly Elite/UltraElite/Crusader Fanatic units.
+    The Unit will keep all its prevous Life enchantemets at no upkeep cost.
+    The Unit will gain Holy Bonus, Dispel Evil and Flight.
+    The Unit will be Non-Corporeal and Immune to Illusions.
+    The Unit will be treated by all means as a Life Magical unit.
+    The Unit won't accept any further Life Unit Enchantement.
+    The Unit's Life Enchantements cannot be dispelled.
+    If Ascention is dispelled the unit is banished.
+
+ Angel Armor
+    Upkeep: 4
+    Casting Cost: 40 / 200
+    Target: Friendly Unit
+    Target unit receives defense 6.
+    The effect is not cumulable with Holy Armor.
+
+ Holy Fire (Common)
+    Casting Cost: 40 / -
+    Target: Enemy Death Unit.
+    Each Turn until combat ends every figure in the target unit must make 3
+    resist or take 1 hit.
+    Created Undeads take (4-Resist) damage.
+
+ Holy Armor (Common)
+    Upkeep: 2
+    Casting Cost: 20 / 100
+    Target: Friendly Unit
+    The target unit will gain +2 defense and +1 resist, and is immune to
+    Life Stealing.
+
+ Bless (Common)
+    Upkeep: 1
+    Casting Cost: 8 / 40
+    Target: Friendly Unit
+    The target unit will gain +3 defense and resistance against all
+    Death and Chaos direct or indirect spell effects and unit attacks.
+    If the unit is killed won't in any case raise as undead.
+
+ Righteousness (Uncommon)
+    Upkeep: 3
+    Casting Cost: 40 / 200
+    Target: Friendly Unit
+    The target unit will gain Immunity against all Death and Chaos direct
+    or indirect spell effects, and Defense 10 against unit attacks.
+    If the unit is killed won't in any case raise as undead.
+    The target is protected versus Blasphemia.
+
+ - CREATURES DESCRIPTION
+ Angel and ArchAngel will be slightly powered up.
+
+[EOF] =========================================================================

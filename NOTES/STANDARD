@@ -1,0 +1,19 @@
+
+MOUSE
+    LEFT	select
+    RIGHT	default_command / help
+    MID		details
+
+Tutti gli oggetti sono compresi tra -.5 e +.5
+
+
+
+WINDOW FRAME SHADES
+    top		: 1 .3 .3
+    bottom	: 1 .5 .5
+    left	: 1 .4 .4
+    right	: 1 .2 .2
+
+
+Generic-geomety functions: "draw"
+Fixed-coordinates functions: "display"

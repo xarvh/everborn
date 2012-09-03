@@ -1,0 +1,70 @@
+
+Runes belong to each of the four Elements: Air, Water, Earth, Fire.
+The possibility to add also Time and Soul should be considered.
+
+Runes are manufactured in cities with a Fortress or a Forge (the Forge has no requirements).
+They cost both manpower and mana, but can be stored and used at any time.
+
+To ability of a wizard to store runes of a particualr Element depends on the pics taken
+in that Element.
+If a player has not enough "store capability" he won't be able to store nor produce the more
+powerful runes.
+A background explaination should be found.
+
+For example, you take 3 pics in Earth, 2 in Water and 1 in Fire.
+Then you'll have access to Common Earth, Water and Fire Runes and a few of Uncommon Earth
+Runes.
+You will have:
+
+21 Slots for Common Earth Runes
+12 Slots for Common Water Runes
+5 Slots for Common Fire Runes
+5 Slots for Uncommon Earth Runes
+
+
+Here is the rule:
+
+Picks		C	U	R
+1		5	0	0
+2		12	0	0
+3		21	5	0
+4		32	12	0
+5		45	21	5
+6		60	32	12
+
+It should be still adjusted but seems fair.
+Of course if a wizard is able to have runes of a certain level, he will be able to research
+and use ALL the runes of that level.
+
+I'll add systems allowing the cities to automatically produce runes without bother the
+player.
+
+A Runic Wizard can be cna choose these retorts (1 pick each)
+
+Sage,
+Warlord,
+Alchemist,
+Famous,
+Charismatic,
+Spellmaster (That will allow to choose SpellBooks and throw spells)
+Artificer,
+Myrran,
+Earthlord,
+Firelord,
+Waterlord,
+Airlord,
+ElementalMaster.
+
+[EOF]
+	Rune of Land Knowledge.
+	Guardian Rune.
+	Preserve Rune
+		Regeneration, in caso di sconfitta ritorna alla base.
+
+
+
+
+
+
+
+(EOF)

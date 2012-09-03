@@ -1,0 +1,168 @@
+
+FORTRESS
+    il playermage deve essere nella fortezza per:
+	-ricevere mana dalla fortezza
+	-impiegare mana per la ricerca
+	-lanciare incantesimi nei combattimenti fuori dalla sua cella
+    in compenso ha sia FORESTER che MOUNTANEER
+
+    la fortress permette di conservare gli items, altrimenti bisogna metterli
+    in una neutral location o in una cittá (un oggetto max)
+
+
+LAIR/RUIN:
+    -Come città, sarebbe carino se avessero le mura...
+
+
+
+SISTEMA ==================================================
+    Rete:    MULTITHREAD!?
+    -Controllare numero massimo dei giocatori
+    -Controllare che non ci siano nomi doppi
+
+    Cmd:
+    un array GRANDE di argomenti, arg1 e gli altri riferimenti&
+    agli elementi dell'array, una solo buffer di stringa
+    e molti buffer "nome" piú piccoli, o allocati apposta.
+
+
+
+INTERFACCIA ==========================================
+
+#OVERLAND:
+    Incantesimi selezionando prima il target
+    Tasto medio del mouse?
+
+#GUI: non si capisce se un tasto é stato premuto o meno
+    -> aggiungere un feedback visivo con timer
+    -> utile anche per le hot key!!!!
+
+
+
+
+GIOCO =========================================================================
+
+    NON CREDO NELL'EQUILIBRIO
+    Se qualcosa ha senso, si fa.
+
+#Ogni libro da dei plus/deagli attributi al mageplayer
+
+#il giocatore può trovare "suggerimenti" sulla locazione dei libri dispersi.
+
+#TUTTI i libri e tutti i retort dovrebbero essere ottenibili in qualche modo,
+eventualmente anche tramite un apposito incantesimo (che può essere lanciato
+solo una volta nel gioco da ogni giocatore) "evoca libro" o qualcosa del
+genere.
+
+#mago sconfitto sceglie 1 libro da escludere: il mago vincitore può sceglierne
+uno degli altri: quelli che non sceglie vengono dispersi.
+
+
+#upgrade unità:
+    la perdita di esperienza dipende dalla differenza
+    assoluta di costo.
+
+#Full Random Mode:
+    La partita comincia per TUTTI con pick completamente a caso.
+
+#Obbiettivi non ovvi:
+    1. Costruire 7 città di 7 razze diverse con almeno 10 di pop
+	meno di 7 razze in gioco:
+	    7 città della STESSA razza con almeno 15 di pop
+    2. Imparare 1 incantesimo maggiore per REGNO.
+
+INCANTESIMO:
+    -bloom: ogni l'upkeep di ogni edificio di una cittÃ¡ aumenta di 1.
+    -honour guard mantiene una unitá sempre assieme al playermage
+    -farsight, da BACI view
+    -curse of XXX "prints the face of a enemy wizard on all the toilet paper
+    of the Planes, halving his fame"
+    -Complexity Emerge: fast regeneration for the casting wizard character.
+    -retrieve items (per recuperare gli oggetti di un eoe morto prima che vengano rubati!)
+    -destoy road (nature)
+    -passa alberi (in battaglia, una specie di teleport da albero in albero)
+    -Brucia cadaveri
+    -Aumenta unrest in una città.
+    -GodWish elimina penalità alla fama
+    -Gods With Us (inverte le penalitá per le azioni malvage) (sarebbe meglio spezzarlo in piú incantesimi)
+    -Righteous Revenge (simile a bloodlust?)
+    -Liberation (dannegga una città con non-morti/unità nere)
+    -Seeds of Greatness (chaos): raddoppia la possibilità di
+	avere un eroe e ne aumenta i bonus casuali.
+    -Black Taint: se un eroe muore risorge come non morto al servizio del caster
+    -Sacrifica Eroe -> (Mana?)
+    -Flesh to Woods -> trasforma citta in foreste?
+
+
+RANDOM EVENTS:
+    Gli dei fanno una gara per donare un oggetto
+
+
+EROI
+    quelli di base sempre FORESTER e MOUNTANEER per
+    evitare troppe penalizzazioni di movimento all'inizio?
+
+    Ogni bonus casuale raddoppia l'upkeep dell'eroe.
+
+    Un eroe può conquistare altri bonus casuali?
+
+
+BATTLE:
+    Se una unità non è in grado di entrare in una cella
+    non può neppure lasciare la battaglia in quella direzione
+    I tempi per attraversare una cella in battaglia sono
+    cmq PIU LUNGHI di quelli normali.
+
+    E se ogni unità sparasse a distanze differenti?
+    Se al 100% della gittata le probabilità di colpire (o il danno?)
+    sono 0, potrebbe essereci un'unità che spara al 95% e una che
+    spara all'80%
+
+    Una città è conquistata se, alla fine del tempo, le unità di difesa sono
+    completamente scacciate dal perimetro cittadino e l'attaccante ha almeno
+    un'unità all'interno.
+
+    Order Override: "Guard closest team/groupmate".
+    In questo modo se ad un gruppo viene ordinato di attaccare le unità non
+    da combattimento non si cacciano (troppo) nei guai.
+
+
+
+#START:
+    4 settlers:		cheapest unit with SETTLE
+    4 base:		cheapes unit in grado di attaccare
+    1 Hero:		most expensive hero unit
+    1 PlayerMage
+    Partono tutti su terreno, non su acqua
+
+#ogni cuoricino di ogni unitá ha una certa probabilitiá
+(diciamo 30%?) di rigenerarsi ad ogni turno.
+
+#Templi, shrine, partenon, cath:
+    definiti come edifici che producono mana e riducono malcontento
+
+#Settlers: always BACI view
+
+
+
+CODICE ========================================================================
+
+#Menu: scrivere come classe e fornire un "elapsed time"
+
+#cmdC
+    una attributo statico brainT* al posto di cmdGetBrain()
+
+
+
+BALANCE =======================================================================
+great drake con magic immunity e illusion immunity
+
+
+ESTETICA ======================================================================
+#razze:
+    devono avere degli avatar di default
+
+# Unità sollevano gli scudi quando arrivano le frecce.
+
+
+[EOF]

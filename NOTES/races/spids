@@ -1,0 +1,29 @@
+
+spinnefolk
+
+
+bonuses: food bonus
+
+citizen:
+    sp4 me0 po1 forester
+
+blds:
+    granary markeplace farmersmarket
+    barracks armory
+    stables animists guild
+    shipyard
+    shrine temple
+
+NOTA: POISON
+    po funziona come melee al100% di accuracy
+    il tiro resist toglie 1 Hit per ogni successo
+
+units:
+    spid
+    warriors		me1 po2 def3 lsh
+    bowmen		ra1
+    cavalry		po3 def4 sp5 hit4 fs swim
+    druids		po3 def3 purify healer
+    maidens		po4 def4 web
+    settlers		outpost
+

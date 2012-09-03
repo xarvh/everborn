@@ -1,0 +1,34 @@
+
+Unit Frames
+
+Standard:		Range	Default
+    Ground Idle		1/16	1
+    Ground Move (walk)	1/16	4				#byte
+    Ground Melee	2	2
+
+Optional:		Range	Fallback
+    Ground Range	0,2	Ground Melee
+    Air Idle		0/15	Ground Move
+    Air Move		0/15	Air Idle			#byte
+    Air Melee		0,2	Ground Melee
+    Air Range		0,2	Ground Range
+
+    Water Move		0/15	Ground Move			#byte
+    Water Idle		0/15	Water Move
+    Water Melee		0,2	Ground Melee
+    Water Range		0,2	Ground Range			#byte
+
+Death:			Range	MaxAlternatives
+    Kill		1/16	4
+    Slain		0/15	8 (particles)
+    Burn		0/15	1
+    Consume		0/15	1
+    Disintegrate	0/15	1
+
+
+unit_t:
+    byte *gidle;
+    byte *gmove;
+    ...
+
+[EOF]

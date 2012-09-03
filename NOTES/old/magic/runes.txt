@@ -1,0 +1,58 @@
+
+ RUNES
+
+ BACKGROUND
+ Runes are powerful artifact, forged from pure magic in the shape of arcane
+ symbols.
+ Their power is brute, raw, hard to control and to stop.
+ Runes allow to animate souless matter, giving life to mighty constructs called
+ Golems.
+ Runes belong to each of the four Elements: Air, Fire, Earth, Water; they can
+ be built and held only with the aid of the Primitive Runes.
+ Primitive Runes are rare artifact, built when the Worlds themselves were born:
+ none is nowadays able to create such powerful items, but is said that deep
+ knowledge of a Primitive Rune allows to destroy it, unleashing all his
+ overwhelming power...
+
+
+ GAME
+ Runic knowledge belongs to the more primitive cultures, while more
+ technologically advanced, "scientific" coltures focus on the Magic of the
+ Realms.
+ Thus races will be split in Realm Races (all those able to build a Wizard Guild)
+ and Runic Races (the others).
+ Realm Wizards will be able to choose and use Runic Magic only choosing the
+ reserved retort Runemaster.
+ Viceversa, Runic Wizards will be able to choose and use Realm Magic only
+ choosing the reserved retort Spellmaster.
+
+ Each pick in Runic Magic corresponds to an unique Primitive Rune: Primitive
+ Runes are 8 per each Element, and not unlike Realm Books, are divided into
+ 5 Lesser and 3 Greater.
+ Primitive Runes can be cast on friendly cities: they will transform into
+ Forges.
+ Forges slowly convert city mana output into Runes, wich are stored into the
+ Forge itself and ready to use.
+ Each Primitive Rune, when transformed into a Forge, will provide a bonus to
+ the hosting City.
+ It is possible to reconvert a Forge into a Primitive Rune for no cost, but it
+ will take a turn. Stored Runes won't be lost and will be always ready to use.
+ If a city with a Forge is conquered, the Forge is destroyed and the Primitive
+ Rune scattered across the Worlds. Only the owner will automatically know where
+ to find the Rune.
+
+ Cities can be ordered to build Golems.
+
+
+
+
+
+
+ BALANCE
+ Obtaining Runes is pretty more difficult than casting spells, and cities play
+ a central role with them, but Runes, can be stored and unleashed at any time
+ for no cost, even all at once.
+ Runes effects are difficult to dispel, but also to control: if you are not
+ careful they may turn against you.
+
+[EOF]

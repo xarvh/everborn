@@ -1,0 +1,453 @@
+
+ aggiorn:
+
+===============================================================================
+
+    AUTOBUS:
+	1. box per gli stat delle unitÃ¡: generico e prod menu
+	2. descrizione degli spec e stat almeno quelli usati
+
+	3. Dismiss degli incantesimi
+	4. Dismiss delle unitÃ¡
+
+
+    -battle spells vs overland spells
+	per adesso non c'e' differenza!!!
+
+    -ricostruire bene l'assegnamento dei pick,
+	i requirements CI SONO (lightlord/darklord!!) e vanno applicati
+
+    -implementare tutti gli spells (life), summon comprese, e i retort
+
+    -mentre una unitÃ¡ si muove da una cella, le unitÃ¡ che rimangono non
+    vengono visualizzate
+
+    "You will start casting NOW and it will require you XX turns to complete
+    the spell"
+    "You will start casting in about XX turns and it will require you XX turns
+    to complete the spell"
+    "You will cast this spell in about XX turns"
+
+    battle: clessidra mostra tempo rimasto per il combatt.
+
+
+
+ TEST
+
+ BUGS, MAJOR:
+
+
+
+
+ BUGS, MINOR:
+    le unitÃ¡ si sbarellano quando entrano in combattimento.
+    creare una uobENTER, in modo che entrino tutte con la stessa velocitÃ¡?
+    >il massimo sarebbe farle andare avanti nella stessa direzione solo
+    se hanno spazio... serve una umMoveLow dedicata per fare questo, che
+    farebbe comodo anche per il comando wave.
+    (potrei mettergli un angolo di divergenza minimo... se per muoverti devi
+    andare ad un angolo che supera di uno quello che sarebbe imposto,
+    aspetti o attacchi)
+
+    cityMenu/counters: le incudini non vengono disegnate completamente.
+	l'icona davanti si sovrappone?
+    
+
+
+ CLEANING:
+
+ ADD FEATURE:
+    overland: da mattina a tramonto a seconda di quanti giocatori hanno
+    completato il turno
+
+
+
+------------------------------------------------------------------------------
+    Prime cose da fare con galilei:
+
+    5. razze: suoni, "base stats", ske multipli
+
+    9. diplomacy
+-------------------------------------------------------------------------------
+    -nell'economy box, aggiungere il simbolo alchemy
+	se autoalchemy Ã© attivo
+-------------------------------------------------------------------------------
+Musica: all'inizio il volume Ã© a zero, poi man mano sale fino al volume
+settato.
+-------------------------------------------------------------------------------
+    attacco interrompibile finchÃ© non Ã© stato inflitto il danno/creato il
+    proiettile
+-------------------------------------------------------------------------------
+    evilOmeter	quanta gente uccidi
+    powerOmeer	quanto conquisti
+    cityOmeter	quanto sono contenti i cittadini
+		    cittá distrutta: -= popolazione
+		    compra blds che danno cibo o unrest: += costo + denaro speso
+ ------------------------------------------------------------------------------
+>    il middle click sulle unitÃ¡, oltre alla finestra dei dettagli,
+    dÃ¡ la possibilitÃ¡ di lanciare direttamente ench.
+
+>    Stesso per ogni altro ench
+>	Incantesimi ad area nelle battle, marking box col middle
+    
+
+ ------------------------------------------------------------------------------
+    Come sistemo 'sta roba??
+    MOUSE R vs M
+	-middlepanel: unit details vs +select
+	-menu battle: order vs details
+	-menu land: surveyor vs order
+ ------------------------------------------------------------------------------
+ Le mura si riparano sempre.
+ Se la cittá ha uno stone wall ogni turno una sezione viene riparata automatica
+ mente.
+ Il giocatore ha comunque l'opzione di demolire il muro e rifarlo.
+ ------------------------------------------------------------------------------
+ Nessun limite alle unitá in una cella, me se !battle aumenta l'upkeep.
+ ------------------------------------------------------------------------------
+ Chi sconfigge definitivamente un mago puÃ³ scegliere uno dei suoi retort
+ ------------------------------------------------------------------------------
+ Conjurer permette di mettere il SC anche nei Neutrals e nei nodi
+ ------------------------------------------------------------------------------
+ Bonus razziale al TxC ignorato per Range Magic
+ ------------------------------------------------------------------------------
+    Aggiungere un segnalino 8x prima degli stat di una unitá
+    (bisogna far capire in qualche modo che il numero di figure non é solo
+    estetica!)
+ ------------------------------------------------------------------------------
+    Testo: vedi NOTES/fnt
+ -----------------------------------------------------------------------------
+    -Le linee della minimap cambiano dimensioni se landmenu non visualizza
+	alcuna cella.
+	1) perché cambia la dimensione della linea? c'é un SetLineWidth() giusto prima
+	2) NON E'UNA TEXTURE STATICA!?
+	->C'Ã© una trasparenza che non dovrebbe esserci, forse Ã© quello
+ ------------------------------------------------------------------------------
+
+    -multiplayer menu: se un client si sgancia il server non lo scarica
+    >bisogna riscrivere o almeno riorganizzare il codice di rete:
+     l'informazione di connessione persa deve poter arrivare al server loop!!!
+ ------------------------------------------------------------------------------
+    -Dare un costo al road pathing che includa, di un ordine di grandezza minore,
+	il costo di costruzione
+ -----------------------------------------------------------------
+    -Togliere il localfocus e far inizializzare la city nel citymenu
+    ad OGNI ciclo?
+    (sarebbe piú pulito, anche perché temo che il controllo venga fatto comunque
+    ad ogni ciclo....)
+    >Problema, cosa fa il menu in caso di focus non utile?
+	come fa a capie se é sparita la cittá o se é il focus che deve ancora
+	arrivare?
+
+    -posso fargli lanciare un cmd("focus x y z"); se il focus non corrisponde
+    e poi tenere un puntatore dell'ultimo focus di cui ho lanciato il
+    comando.... che é esattamente quello che fa localfocus.... -_-
+
+    e se controllo, ad ogni ciclo, solo il localfocus?
+    >dovrei avere la garanzia che il focus segue localfocus di pochi secondi!
+	basta controllare bene il codice e aggiungere un paio di commenti.
+
+ ------------------------------------------------------------------------------
+
+ invisibilitá: -3 ToHit in Melee
+ (significa che senza almeno un +1 ToHit una unitá non é in grado di attaccare!)
+
+ ------------------------------------------------------------------------------
+    ogni cittá ha una dimensione per ogni giocatore, corrispondente
+    all'ultima TotalPop con cui é stata vista da quel giocatore
+    0 -> il giocatore NON SA della cittá!!!
+ ----------------------------------------
+
+ FOVSweep
+ disegnare una striscia orizzontale per volta, completa di tutti gli oggetti,
+ dalla piú lontana alla piú vicina, in modo che gli oggetti si sovrappongano
+ correttamente.
+ 
+ ------------------------------------------------------------------------------
+
+    Nela fortezza il costo degli incantesimi é 0!
+
+
+
+
+    -creare un battleC::StartTime prima del quale NON si possono dare comandi
+    e prima del quale la pausa non ha effetto.
+    (in realtá dovrebbe essere possibile dare comandi concatenati, ma come?)
+    (> gli ordini che non si completano, HOLD, WAIT etc, possono completarsi
+    se ci sono altri ordini in coda)
+
+
+    e se faccio in modo che, se un giocatore ha un solo combattimento,
+    viene portato automaticamente lá senza pausa?
+    ->Assolutamente da fare, velocizza il gioco mostruosamente.
+
+    problema: come fa il giocatore a sapere dove cazzo é il combattimento?
+    >dovrei farglielo vedere prima sulla mappa
+    >oppure mettere disegnare la minimappa in combattimento con il simbolo
+    di battaglia ad indicarene la locazione, scompare (in trasparenza =)
+    in 5 secondi.
+
+
+    praticamente ogni volta che si crea una nuova battaglia, se il giocatore
+    non ne ha altre in corso (in pausa o meno) si apre automaticamente il menu.
+    possibilmente con una panoramica sule proprie unitá.
+
+    >mostrare anche il numero di altri combattimenti (oppure un'icona per
+    ciascuno, per raggiungere il combatt direttamente cliccando)
+
+    >servirebbero anche delle notifiche di inizio/fine battaglia, tutte da
+    mettere nel log degli eventi
+
+ ----------------
+ build road
+    * sarebbe carino buttare tutto dentro menu_land
+     cioé, niente popup!
+    * quale tasto uso per confermare la strada?
+     -> il DX é comando di -default- quindi va bene non usarlo per
+     il movimento.
+	>va bene usare il SX
+    unitPathSetRoad()
+    	< viene de-settato da unitPathfind() alla fine del pathing
+	< forza unitPathfind ad usare una diversa heu/cost
+    menuLand deve comunicare alla popup la cella di destinazione
+	se la celldest e'diversa da quella prec, rifai il pathing
+	mostra costo in turni
+
+ ------------------
+    -le unitá continuano a non attaccare quando devono, cazzo!!!!
+	-unitá aggira per arrivare in melee su un nemico
+    -é possibile che le celle effettivamente non occupabili
+    e quelle visualizzate non corrispondano.
+
+    sembra che il combattimento funzioni e le unitá non attacchino solo
+    perché 'si intestardiscono' su un obbiettivo non raggiungibile.
+    > usare l'ActionReport per cambiare targ
+ -------------------------
+
+
+
+	battlemenu & midpanel-> MARKING BOX!!!!
+
+
+    >battlefield ottagonale?
+	(usando le BCF_, anche per gli escape)
+
+    -se il combatt é in pausa, mostrare il targ delle unitá.
+	chiamate successive ad orderC::Display() ognuna delle quali puó
+	spostare il punto in cui disegnare?
+
+
+    -FIRST STRIKE
+	action first strike: l'unita' attacca da distanza FS
+	e continua ad avanzare fino a portarsi a distanza melee
+	dove viene inflitto il danno
+
+
+
+    -hills: il vertice centrale e' impostato alto come
+	il piu' alto degli altri vertici
+    -mountains: il vertice centrale viene alzato di un po' rispetto al
+	piu' alto degli altri vertici
+
+
+	-eventi: frase, posizione-> automatico per tutti quelli che
+	    vedono "posizione"
+	    >devono poter  essere dichiarati con una maschera che indica
+	    CHI puó vederli!
+	-popup per gli eventi
+	-un evento deve poter essere aggiornato
+	(tipo battaglia che finisce, creare due eventi incasina il giocatore)
+
+
+
+    Ordini di base:
+	Attacca nemici in raggio	:hold, wave, move(blocked), attack(blocked)
+	Raggiungi e attacca nemici
+	
+
+
+    -unire orderSetAction e orderCompleted
+	(stesso discorso per actions?)
+
+    -spellbook
+
+
+-----    EVERBORN -------------------------------------------------------------
+    "In the beginning, the Everborns created Chaos.
+    Chaos created Nature, and Nature created Thought.
+    Thought created Good and Evil.
+    A quest for power then began."
+
+
+
+    A fine gioco (ma non sempre) dopo gli stat di fine partita:
+
+    "That was cool. Let's do another one, but we strip that 'magic' thingy
+    and we put -this- instead. I called it Quantum Physics...
+    And I want spherical planets, flat sucks!"
+
+    "Ah! Spherical planets... You're such a faggot!
+    But I like that 'quantum' stuff... sounds cool!
+    Y'know what? I'm taking the popcorn..."
+
+
+-------------------------------------------------------------------------------
+
+
+	mouse#() diventa inputMouse#();
+	mouse#() é una funzione del menu e viene ripristinata
+	per ogni layer del menu
+	In questo modo il tasto premuto puó passare da una popup
+	al menu
+	-
+	popup non devono aver bisogno di menuCheck o menuOpen,
+	non devono avere bisogno di un nome perché tanto non 
+	sono richiamabili da comando.
+
+
+    Forester/Mountaneer
+	Il movimento cambia anche in combattimento!!!
+	tipo alberi/rocce dove possono muoversi solo le unitá
+	con lo special.
+
+    battle:
+	allentrata in battaglia ai team viene assegnato un numero per
+	la selezione rapida (1,2,3... 0)
+    combattimento:
+	le celle di escape diventano una BCF_
+	->questo potrebbe permettere di fare un pathing decente per la fuga?
+	->in ogni caso, aumentare il costo di passaggio
+
+
+
+    Sistema di gestion del "dramma" del combattimentio: piú é grosso l'esercito
+    piú indietro parte.
+
+    A fine turno disband() di tutte le unitá oltre la 32 in una stessa cella
+    non coinvolte in un combattimento.
+
+    aggiungere spell
+
+    minimap cliccabile
+	wraparound lungo x
+	viewbox che si sposta lungo la y
+
+    EndOfTurnSummary!
+    rivedre crescita, permette pop troppo alte
+    immagini dei bottoni: figure astratte (xarvh demo!), no "foto"
+
+
+
+    bug: alcuni menu non controllano che ci sia il game o meno
+	e vanno in seg fault: creare funzioni di controllo
+	    isGameAvailable()
+	    isSelfAvailable()
+	    isFocusAvailable()
+	    isBattleAvailable()
+	    ....
+
+
+
+    SPECIALS/COUNTER/PRODMENU
+	integrare un po' meglio il tutto
+	spcC e statC non dovrebbero stare in txtC
+	il prodMenu dovrebbe usare una fake unit
+	--->mettere gli stat come attributi stringa? O_o
+	utypeC.Specials(int) deve diventare di unitC.
+	sistemando bene gli stat, si possono:
+	TOGLIERE I LIVELLI DELLE UNITA':
+	eliminare i livelli: le singole caratteristiche aumentano
+	coi fallimenti.
+	Il totale delle caratteristiche guadagnate per esperienza
+	viene usato per determinare il titolo (Recruit,Regular,Veteran etc..)
+
+    UNDEAD:
+	le unitá che -diventano- non morte sono "zombie"
+
+    bug: battle map_view non centrato quando lo zoom é minimo
+
+    MINIMAP:
+	-aggiustare il rapporto w/h in modo da mantenere le celle quadrate!!!
+	(adesso funziona solo per mappe quadrate!!!!!)
+	-click su minimap
+
+
+    TITLES!
+	ogni volta che un giocatore fa qualcosa di figo (da definire)
+	puó aggiungersi un titolo: gli altri giocatori possono votare
+	il titolo: non ha effetto sul gioco se non per il punteggio finale,
+	come bonus di "roleplay" (sarebbe carino riuscire a puntare molto sul
+	roleplay..)
+
+	Stesso per gli eroi: ogni tot livelli, il giocatore che li controlla
+	puó dargli un titolo.
+
+
+
+COMMANDS:
+    overland: "hold" causa blockade ed esclude le unità da un eventuale auto
+	selection.
+	"wait" non causa blockade.
+    aggiungere flags agli ordini:
+	ORDER_IGNOREAUTOSELECT
+	ORDER_CAUSESBLOCKADE
+	ORDER_DEFAULT?	<-- puntatore che viene cambiato su questo!
+
+OVERLAND:
+    unità cambia dimensioni a seconda della forza dell'esercito
+
+
+BATTLE:
+	Unità che esultano?
+	-> anche in overland, finchè non viene dato
+	un nuovo comando o non cambia turno
+
+	Le unità sono automaticamente gruppate per overland team.
+	I team possono essere selezionati con i numeri (1,2,3,4...)
+
+
+
+MOSTRI ERRANTI:
+    quando c'è da creare un mostro errante, un giocatore (a caso? a turno?)
+    senza preavviso sceglie dove crearlo o contro chi.
+    (tipo: scegli un giocatore e il mostro viene creato vicino ad una città
+    di questo giocatore)
+
+REWRITE:
+    network: un canale solo, multithreading?
+    LATE JOIN/RESTORE/SAVE
+    3 modes: GUI, Server, AI (python player!)
+
+    passare game e cmdGetBrain alle funzioni cmdGXXX e cmdCXXX
+
+    game dovrà essere passato anche a tutte le display/input?
+    ->no, quelle usano direttamente gameLocal invece di gameTrue
+
+
+
+data: permettere texture duplicate (stessa
+    texture indicizzata da due diverse dataC)
+
+
+TERRENO
+    ombra: scurire i vertici a seconda dell'altezza dei vertici a sinistra?
+
+ il terrain renderer fa schifo
+ e anche il generatore
+ -generare i tipi di terreno forzando proporzioni fisse?
+ (40% mare, 20%pianura 10%montagne 2%paludi....)
+ proporzioni fisse anche per i plus (esempio: tot adamantio ogni 1000 celle..?)
+
+ render:
+ - dislivelli di terreno: i vertici agli angoli rimangono sempre a 0, quelli ai
+ punti cardinali si muovono per collegarsi alle celle adiacenti per creare catene montuose (ala MOM?)
+
+
+ -Pathfinder
+    -mettere le tappe nel path, deve interrompersi su terreno non raggiungibile,
+    possibilmente con segnale di errore...
+
+ -aggiungere ai blds una "altezza" in modo da disegnarli in scala?
+
+
+[eof]

@@ -1,0 +1,32 @@
+
+ ========
+ Fatou
+ ========
+
+ Creatures born from the chasm of Chaos and endowed with chaotic spirit, Fatou are an awe-inspiring
+ race.
+
+
+ No Stables
+ No Cathedral
+ No Miners Guild
+ No University
+
+ LAND_CITY
+
+ Growth: SLOWEST
+
+		Melee	Range	Def	Fig	Hits	Resist	Speed	Special
+ Warriors	2	-	4	8	2	5	1	CHAOS, NFS
+ Swordsmen	4	-	4	6	2	5	1	CHAOS, NFS
+ Axethrowers	4(Axe)	-	4	6	2	5	1	CHAOS, NFS
+ Priests	4	4	4	4	3	8	1	I2F, CHAOS, NFS
+ Ellektra	7	6	5	2	3	6	1	AP, FDODGE, PSIBLAST
+ Son of Nihil	7	-	6	1	4	8	2	REGEN, FEAR, I2butMAGIC, AP
+ Settlers	-	-	4	1	10	5	1
+
+
+ CHAOS: apply a chaos channels at any levelup
+
+
+[EOF]

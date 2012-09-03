@@ -1,0 +1,79 @@
+
+ ========
+ EARTH
+ ========
+
+
+ RARE
+ # Greater Earth Elemental
+ # Earth Cry
+    Terremoti dappertutto (friendly cities comprese!!)
+
+
+ ==============================================================================
+ UNCOMMON
+ ==================
+
+ # Reintegration
+    Saves a unit from death, once.
+
+ # Remove Greater Air Rune
+ # Earth Elemental
+ # Earth Eye
+ Global
+ All friendly cities can see invisible units
+
+ # Earth Bridge
+ # IronWall
+ # Regeneration
+ # Merge
+ # Meld
+  Will make all friendly units meld with the ground.
+  They will be able to move but not to attack.
+  The spell last up to a turn, but can be closed anytime by the caster.
+
+ # Destroy Stone
+ Combat
+ Automatically destroys stone walls.
+
+
+ ==============================================================================
+ COMMON
+ ==================
+
+ # Move Gate
+ Makes a Planar Gate move of one square, in a selected direction.
+
+
+ # Remove Lesser Air Rune
+ # Lesser Earth Elemental
+ # Ensnare
+ # Entangle
+
+ # Raise Trees
+ Maybe pass to Nature
+ Overland
+ Converts Grassland, Swamp, Hill, Desert or Tundra into Forest.
+
+ # Heal
+
+ # Might
+ +2 Melee Attack
+
+ # Stone Skin
+
+ # StoneWall
+
+ # Wood to Iron
+ +1 Ranged Projectile
+
+ # Quake
+ sballonzola enemy units
+
+ # Stone Column
+ Combat
+ Raises an invalicable column on the battlefield.
+
+
+
+[EOF]

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="realm.css"?>
+<!DOCTYPE realm SYSTEM "realm.dtd">
+
+<realm>
+    <name>Death</name>
+    <info>
+    Kill assassinate slaughter murder slay or, if you really can't,
+    deceive and weaken.
+    </info>
+	
+    <book>
+	<name>Codex Damnati</name>
+	<history>
+	Cursed and cross-cursed papers....
+	</history>
+
+	<spell>
+	    <name>Death Spells</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Death Wish</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Word Of Death</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Zombie Mastery</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  40</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 800</cost>
+	</spell>
+
+	<spell>
+	    <name>Black Prayer</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  35</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Black Wind</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Cruel Unminding</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Demon Lord</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  15</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Eternal Night</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  15</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Evil Omens</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>  10</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1100</cost>
+	</spell>
+
+	<spell>
+	    <name>Four Horsemen</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   8</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 600</cost>
+	</spell>
+
+	<spell>
+	    <name>Pestilence</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 350</cost>
+	</spell>
+
+	<spell>
+	    <name>Shadow Demons</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   7</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 325</cost>
+	</spell>
+
+	<spell>
+	    <name>Unhonly Weapon</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>  40</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Warp Node</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  75</cost>
+	</spell>
+
+	<spell>
+	    <name>Wraiths</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Animate Dead</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Black Channels</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Black Sleep</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  15</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Cloak Of Fear</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>  12</bcost>
+	    <cost>  60</cost>
+	</spell>
+
+	<spell>
+	    <name>Cloud Of Shadow</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   2</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 150</cost>
+	</spell>
+
+	<spell>
+	    <name>Consume</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Cursed Lands</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   2</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 150</cost>
+	</spell>
+
+	<spell>
+	    <name>Dark Rituals</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Darkness</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  25</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Drain Power</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Drain Power</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Evil Presence</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   4</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>Famine</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Ghouls</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  80</cost>
+	</spell>
+
+	<spell>
+	    <name>Licantropy</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Life Drain</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Mana Leak</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Night Stalker</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 250</cost>
+	</spell>
+
+	<spell>
+	    <name>Possession</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  30</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Skeletons</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  25</cost>
+	</spell>
+
+	<spell>
+	    <name>Subversion</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 100</cost>
+	</spell>
+
+	<spell>
+	    <name>terror</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Wall Of Darkness</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   5</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  40</cost>
+	</spell>
+
+	<spell>
+	    <name>Weakness</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   5</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Wrack</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  40</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Wraith Form</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>  30</bcost>
+	    <cost>  50</cost>
+	</spell>
+</book>
+</realm>

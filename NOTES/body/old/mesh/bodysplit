@@ -1,0 +1,26 @@
+
+    HEAD
+	Animations: -, Cry, Attack
+	Hook point: torso
+	Will usually face the target
+
+
+    TORSO
+	Animations: -, Cry, MeleeAttack(s), Run, RangeAttack(s), whatever
+	Hook point: legs
+	Point0: HeadHookPoint
+	Point1 (directional): RightHandHookPoint
+	Point2 (directional): LeftHandHookPoint
+	Armor hooked between 0 and HeadHookPoint.
+
+
+    CYCLE
+	Animations: -, Attack, Die
+	Hook point: torso
+
+
+    LEGS
+	Animations: -, Walk, Run, SupportFwd, SupportBwd, SupportMid
+	Hook point: ground
+	Point 0: TorsoHookPoint
+

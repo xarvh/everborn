@@ -1,0 +1,64 @@
+
+$DOCUMENT {
+    font-family: "Times New Roman";
+    font-size: 12pt;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+* {
+    display: block;
+    background-color: gray;
+    padding: 2px;
+}
+
+
+info,history {font-style: italic;}
+info:before,info:after,history:before,history:after {content: '"'}
+
+
+realm>name
+{
+ font-size: 200%;
+ font-weight: bold;
+ color: rgb(255,0,0)
+}
+
+
+
+book>name
+{
+ font-size: 200%;
+ font-weight: bold;
+ color: rgb(255,0,0)
+}
+book
+{
+ margin-top: 5mm;
+ font-size: 75%;
+ margin-left: 2cm
+}
+
+
+
+spell>name
+{
+ font-size: 200%;
+ font-weight: bold;
+ color: rgb(255,0,0)
+}
+spell
+{
+ margin-top: 5mm;
+ font-size: 50%;
+ margin-left: 2cm
+}
+
+type{text-transform: capitalize}
+rank{text-transform: capitalize}
+
+type:before	{ content: "Type: " }
+upkeep:after	{ content: "mp upkeep cost" }
+know:after	{ content: "rp research cost" }
+bcost:after	{ content: "mp temporary cost" }
+cost:after	{ content: "mp permanent cost" }

@@ -1,0 +1,12 @@
+
+
+Evil Offer: corrupts hero
+    Loyalty goes down.
+    When loyalty reaches minimum hero leaves.
+    Some turns after, hero offers to casting wizard, then loyalty rises.
+
+Death Pact: Turns the wizard into a Lich.
+
+
+
+[EOF]

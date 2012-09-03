@@ -1,0 +1,176 @@
+
+ S_DEATH.TXT
+ by Francesco Orsenigo
+ Updated 2 Nov 2006
+ Xarvh Documentation: http://xarvh.sourceforge.net
+
+ This file conatins all informations about the Realm of Death Magic.
+ At the moment is just an incomplete list of books/spells, and descriptions are
+ available only for changed items (and not all!)
+ 
+ Death Magic would still need 1 Uncommon and 2 Common spells.
+ 'Degeneration' spell should also be added.
+
+ 
+ Realm of Death Magic:
+  - DEATH MAGIC
+  - BOOK
+  - SPELLS LIST
+  - SPELLS DESCRIPTION
+  - CREATURES DESCRIPTION
+
+ ------------------------------------------------------------------------------
+ 
+  - DEATH MAGIC
+ Indirect attacks, lots of mana, lots of weak and cheap units.
+ Negative enchantements.
+
+
+  - BOOKS
+ Maiores Libri:
+    Dominus Ex Daemoni
+    Dolor Aeterno
+    Precis Obscure
+    Supplicatio Tenebrarum
+
+ Minores Libri:
+    Damnatio Odii
+    Codex Damnati
+    Execratio Blasphema
+    Nocis Sermo
+    Vox Oblivium
+    De Astaroth Daemone
+    De Sephiroth Daemone
+    De Behemoth Daemone
+
+
+
+  - SPELLS LIST
+ Rare
+    Death Spell		??
+    Death Wish		??
+    Word Of Death	??
+    Zombie Mastery
+
+ Uncommon
+    Black Prayer
+    Black Wind		??
+    Blasphemia		New
+    Champion of Darkness New
+    Cruel Unminding
+    Demon Lord
+    Eternal Night
+    Evil Omens
+    Four Horsemen
+    Pestilence
+    Shadow Demons
+    Sterility		New
+    Unholy Weapon	New
+    Warp Node
+    Wraiths
+
+ Common
+    Animate Dead
+    Black Channels
+    Black Sleep
+    Bloodlust		New
+    Cloak Of Fear
+    Cloud Of Shadows
+    Consume		New
+    Corruption		stolen to Chaos
+    Curse		New
+    Cursed Lands
+    Dark Cloud		New
+    Dark Rituals
+    Darkness
+    Drain Power
+    Eye of the Damned	New
+    Evil Presence
+    Famine
+    Ghouls
+    Licantropy
+    Life Drain
+    Mana Leak
+    Night Stalker
+    Possession
+    Skeletons
+    Subversion
+    Terror
+    Wall Of Darkness
+    Weakness
+    Wrack
+    Wraith Form
+
+ To Define:
+    + "seed of evil" countinously corrups terrain around target city.
+    + "Skeletons" City population is slowly converted into skeletons.
+    + "Raise bones" Raises a dead unit as undead.
+
+
+ - SPELLS DESCRIPTION
+ Blasphemia (Uncommon)
+    Upkeep: 4
+    Casting Cost: 50 / 250
+    Target: Friendly Unit.
+    Target unit will be immune to True Light, Dispel Evil, Holy Fire, Star
+    Fires and will ignore Consecration, Bless, Holy Armor.
+
+ Bloodlust (Common)
+    Casting Cost:
+    Target: Combat Friendly Unit
+    Target unit will start lose a figure each combat turn, and for each
+    figure will gain a +1 bonus to melee and ranged attacks, armor, and
+    resistance, unitil the unit is completely consumed.
+
+ Champion of Darkness (Uncommon)
+    Casting Cost: as hero experience
+    Target: Dead enemy hero
+    Target hero will spawn as undead controlled by casting wizard.
+    Undead heroes still gain XP.
+
+ Consume (Common)
+    Casting Cost: - / 100
+    Target: Friendly City
+    The city is completely destroyed.
+    Each 1000 people destroyed, 1 Undead spearmen is spawned.
+    Each people destroyed will provide 20 mana.
+    The casting wizard lose fame as if normally destroying the city.
+
+ Curse (Common)
+    Casting Cost:
+    Target: Enemy Unit
+    As the unit dies it is instantly transformed into undead, under
+    caster's control.
+    Bless, TrueLight and Righteousness will void the effect.
+    Creatures of Light are immune to the spell.
+
+ Dark Cloud (Common)
+    Casting Cost:
+    Target: Overland Friendly Unit
+    All the unit's stack is covered in a dark smoke: enemy wizards cannot
+    gain any information on it, exept that 'there is something'.
+
+ Eye of the Damned (Common)
+    Casting Cost:
+    Target: Overland
+    Summons a flying, non-corporal eye, great for scouting.
+
+ Sterility (Uncommon)
+    Upkeep:
+    Casting Cost:
+    Target: Enemy City
+    The city stops to growth.
+    Stream of Life and Sterility will negate each other.
+
+ Unholy Weapon (Uncommon)
+	Upkeep: 3
+	Casting Cost: 40 / 200
+	Target: Friendly Unit
+	The target unit unit will gain Life Steal 3.
+
+
+  - CREATURES DESCRIPTION
+ Demon and Demon Lord will be slightly powered up.
+
+
+EOF ===========================================================================

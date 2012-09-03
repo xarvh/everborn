@@ -1,0 +1,18 @@
+
+immagine 512x512
+
+render->Mold->Fast brus
+    Detalj 15
+    X,Y-storlek .5
+
+Mask:
+ render->Mold->Fast brus
+    Detalj 15
+    X,Y-storlek .5
+    Turbolence
+    Upprepiningsbar
+
+Aggiusta i livelli (schiarisci maschera, scurisci livello)
+applica maschera
+
+scegli un'area 64x512, copia e incolla

@@ -1,0 +1,7 @@
+
+
+
++20 when defending home
++10 when defending race
+
+condition to flee

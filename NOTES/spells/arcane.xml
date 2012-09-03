@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="realm.css"?>
+<!DOCTYPE realm SYSTEM "realm.dtd">
+
+<realm>
+    <name>Arcane</name>
+    <info>
+    Arcane spells are....
+    </info>
+	
+    <book>
+	<name>ABC of Magic</name>
+	<history>
+	Fallen somehow from the sky straight on your head.
+	</history>
+
+	<spell>
+	    <name>Awareness</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 500</cost>
+	</spell>
+
+	<spell>
+	    <name>Create Artifact</name>
+	    <rank>rare</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Detect Magic</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   3</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Disenchant Area</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  50</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Disjunction</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 200</cost>
+	</spell>
+
+	<spell>
+	    <name>Dispel Magic</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  10</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Enchant Item</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>   0</cost>
+	</spell>
+
+	<spell>
+	    <name>Magic Spirit</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   1</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  30</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Of Mastery</name>
+	    <rank>special</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>5000</cost>
+	</spell>
+
+	<spell>
+	    <name>Spell Of Return</name>
+	    <rank>special</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>1000</cost>
+	</spell>
+
+	<spell>
+	    <name>Summon Champion</name>
+	    <rank>uncommon</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 750</cost>
+	</spell>
+
+	<spell>
+	    <name>Summon Hero</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost> 300</cost>
+	</spell>
+
+	<spell>
+	    <name>Summoning Circle</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>   0</bcost>
+	    <cost>  50</cost>
+	</spell>
+
+	<spell>
+	    <name>Recall Hero</name>
+	    <rank>common</rank>
+	    <type> </type>
+	    <info> </info>
+	    <gfx> </gfx>
+	    <upkeep>   0</upkeep>
+	    <know>   0</know>
+	    <bcost>  20</bcost>
+	    <cost>   0</cost>
+	</spell>
+</book>
+</realm>

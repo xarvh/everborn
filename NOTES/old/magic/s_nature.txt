@@ -1,0 +1,114 @@
+ =========
+  NATURE
+ =========
+
+ lacks magic resist
+
+    Maiores Libri:
+	Liber Gaiae
+	Liber Ferarum
+	Liber Arboris
+	Liber Matris
+
+    Minores Libri:
+	Liber Lapidis
+	Liber Glacei
+	Liber Fulminis
+	Liber Metalli
+	Liber Terrae
+	Liber Ignis
+	Liber Aquae
+	Liber Aeris
+
+	Rare	:	0
+	Uncommon:	4
+	Common	:	16
+
+	+Create Animists Guild
+	+Create Road
+	+Gais's Dream ->Global Gaia's Blessing
+	+Iron Wall (10% chance to be destroyed by WallCrushers)
+
+	Unicorns from Life.
+	Entangle removed.
+
+	RARE
+		Great Wyrm
+		Metal Army		New
+		Nature's Wrath
+		Nature's Awareness
+
+	UNCOMMON
+		Behemoth
+		Colossus
+		Call Lightning
+		Earth Elemental
+		Earth Gate
+		Earthquake
+		Elemental Armor		Changed
+		Gorgons
+		Ice Storm
+		Iron Skin		Changed
+		Regeneration
+		Venom Weapon		New
+
+	COMMON
+		Basilisk
+		Change Terrain		Changed
+		Cockatrices
+		Cracks Call		Changed
+		Earth Lore
+		Earth To Mud
+		Freeze			New
+		Gaia's Blessing
+		Giant Spiders
+		Giant Strenght
+		Herb Mastery
+		Ice Bolt
+		Move Fortess
+		Nature's Cures
+		Nature's Eye
+		Pathfinding
+		Petrify
+		Resist Elements
+		Scouting		New
+		Sprites
+		Stone Giant
+		Stone Skin
+		Transmute
+		Unicorns		from Life
+		Wall Of Stone
+		War Bears
+		Water Walking
+		Web
+
+
+
+	?Restore Wall section
+
+
+	FREEZE		(Common)
+	Casting Cost: 35 / -
+	Target: Enemy Unit
+	The enemy unit must resits or be entirely killed (freezed).
+
+	VENOM WEAPON	(Uncommon)
+	Upkeep: 1
+	Casting Cost: 20 /100
+	Target: Friendly Unit
+	Target Unit gains Poison 5.
+
+	METAL ARMY (Rare)
+	Upkeep: 40
+	Casting Cost: - / 1250
+	Target: Global
+	All the new normal unit have Iron Skin cast on them.
+
+#	IRON SKIN	(Uncommon)
+	Upkeep: 0
+	Casting Cost: - / 300
+	Target: Friendly Unit
+	Increases unit's armor by +5 and gives it Fire Resistance.
+	Cannot be dispelled.
+
+[EOF]

@@ -1,0 +1,23 @@
+
+  ========
+  High Elf
+  ========
+
+
+  Growth: SLOWEST
+  FOREST_CITY: growth rate is considered SLOW if city is in a forest square
+
+	No Elven Lords
+	No Pegasai
+
+	Shamans
+	Blade Dancers
+
+
+
+
+
+
+
+
+[EOF]

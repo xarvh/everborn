@@ -1,0 +1,48 @@
+
+
+Su una unit… difende ed Š vicina ad un muro, non ha malus al TxC a distanza.
+
+Malus:
+	tra 24 e 17:	-4	7
+	tra 11 e 16	-3	5
+	tra 6 e 10	-2	4
+	tra 3 e 5	-1	2
+	tra 1 e 2	-0	1
+	se unit… esterna spara ad unit… interna a muro: -2
+
+
+
+
+Il raggio di ogni unit… Š di 25 pixel.
+Ogni ciclo logico aggiorna lo stato libero/occupato delle celle a seconda
+della posizione delle unit….
+Lo stato libero/occupato Š usato solo per il pathing.
+I nodi del pathing si riferiscono alle celle: il route Š salvato nei nodi
+dell'overland su un puntatore apposito.
+
+
+//APPLY DAMAGE ================================================================
+int damage;
+
+int armor;
+int factor;
+int starting_hits;
+int hits;
+int figures;
+
+int roll(int dices, int percentage)
+
+while(damage > 0 && figures > 0)
+{
+ damage -= roll(armor, 3 + factor);
+ if(damage < 1) break;
+
+ damage -= hits;
+ if(damage >= 0)	//most injuried figure has been killed
+    {
+	hits = starting_hits;
+	figures--;
+    }
+ else hits = -damage;
+}
+//=

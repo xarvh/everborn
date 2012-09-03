@@ -1,0 +1,13 @@
+
+ Handicap & bonuses
+
+ +25% Production
+ +50% Production
+ 1 Turn Production
+
+ Full Map & Info
+ Fatou
+ +1 Picks
+ +2 Picks
+
+[EOF]

@@ -1,0 +1,6 @@
+
+ MAX PLAYERS = sqrt(mapW*mapH)/8
+
+
+
+[EOF]

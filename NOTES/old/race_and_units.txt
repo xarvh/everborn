@@ -1,0 +1,131 @@
+
+Xarvh Race Specials
+
+RACE_MINING_BONUS	Doubles mined resources (Dwarven)
+RACE_FARMERS_BONUS	Farmers produces 3 food instead of 2
+RACE_WORKERS_BONUS	Workers produces 3 work instead of 2
+RACE_POPMANA_BONUS	1 mana each 2 pop
+RACE_LAND_CITY		Cities may be built on land
+RACE_SHORE_CITY		Cities may be built on shore
+RACE_SEA_CITY		Cities may be built on sea
+RACE_FOREST_BONUS	+10 pop/turn and Woods Wall if city is built on forest
+
+===============================================================================
+Extract from G_UNITS.H
+Proportional font, please!
+
+Note about Heroes:
+When some types of units reach the Elite status, they may become Heroes.
+(A Sage Wizard will know this once the unit is created, for the other...
+it's a surprise!)
+That means each race will have its own heroes, and that all heroes once were
+normal units (in Xarvh each unit has an unique name).
+When (and if) a normal unit becomes an Hero, it automatically gains
+all 'hero_base' abilities of that unit type plus one or two abilities
+from 'hero_plus'.
+If the hero has only one ability from 'hero_plus', each levelup
+there is chance to gain an additional ability, or even an totally random
+and unusual hero ability, unavailable to the race.
+That means, each hero will be unique.
+Magic items can be given only to heroes or to the mage itself.
+Hero GFX must be different than units GFX.
+Also, each race must provide an unit animation for the wizard itself.
+
+===============================================================================
+
+    short		hero_base;	//Abilities granted to the hero.
+    short		hero_plus;	//Abilities an hero may additionally gain.
+
+    long long		req;		//Build requirements
+    long long		spc;		//Special abilities
+
+    unsigned char	cost;		//Production Cost
+
+    unsigned char	food;		//food manteniance
+    unsigned char	gold;		//gold manteniance
+    unsigned char	mana;		//mana manteniance
+    unsigned char	spawn;
+
+    unsigned char	speed;
+    unsigned char	move_class;	//Walk/Swim/Fly/Sail/...
+    unsigned char	endurance;	//Units may get tired during a combat....
+
+    unsigned char	melee;
+    unsigned char	defense;	//shields
+    unsigned char	resist;		//crosses
+    unsigned char	hits;		//hearts
+
+    unsigned char	to_hit;		//to-hit bonus
+    unsigned char	range;		//Range attack power
+    unsigned char	range_t;	//arrows/slings/rocks/fireball/lightning....
+    unsigned char	ammo;
+
+    unsigned char	breathe;	//if LIGHTNING_BREATHE is set, will use this value
+    unsigned char	thrown;
+    unsigned char	lifesteal;
+    unsigned char	poison;
+
+ //============================================================================
+ //Units Specials
+ #define IMMUNE_TO_COLD		(1ULL<<  0)		//ok
+ #define IMMUNE_TO_DEATH	(1ULL<<  1)		//ok
+ #define IMMUNE_TO_FIRE		(1ULL<<  2)		//ok
+ #define IMMUNE_TO_ILLUSIONS	(1ULL<<  3)		//ok
+ #define IMMUNE_TO_MAGIC	(1ULL<<  4)		//ok
+ #define IMMUNE_TO_MISSILES	(1ULL<<  5)		//ok
+ #define IMMUNE_TO_POISON	(1ULL<<  6)		//ok
+ #define IMMUNE_TO_STONING	(1ULL<<  7)		//ok
+ #define LIGHTBRINGER		(1ULL<<  8)		//ok (Carries True Light)
+ #define LARGE_SHIELD		(1ULL<<  9)		//ok
+ #define CAUSE_FEAR		(1ULL<< 10)		//ok
+ #define INVISIBLE		(1ULL<< 11)		//ok
+ #define DEATH_GAZE		(1ULL<< 12)		//ok
+ #define CHAOS_GAZE		(1ULL<< 13)		//ok
+ #define STONING_GAZE		(1ULL<< 14)		//ok
+ #define DISPEL_EVIL		(1ULL<< 15)		//ok
+ #define IMMOLATED		(1ULL<< 16)		//ok
+ #define BUILD_ROADS		(1ULL<< 17)		//ok
+ #define STONING_TOUCH		(1ULL<< 18)		//ok
+ #define ARMOR_PIERCING		(1ULL<< 19)		//ok
+ #define ILLUSION		(1ULL<< 20)		//ok
+ #define FIRST_STRIKE		(1ULL<< 21)		//ok
+ #define NEGATE_FIRST_STRIKE	(1ULL<< 22)		//ok
+ #define REGENERATES		(1ULL<< 23)		//ok
+ #define HEALER			(1ULL<< 24)		//ok
+ #define WALL_CRUSHER		(1ULL<< 25)		//ok
+ #define HOLY_BONUS		(1ULL<< 26)		//ok
+ #define FAST_DODGE		(1ULL<< 27)		//ok
+ #define PURIFY			(1ULL<< 28)		//ok
+ #define CREATE_OUTPOST		(1ULL<< 29)		//ok
+ #define DOOM_BOLT_SPELL	(1ULL<< 30)		//ok
+ #define FIRE_BALL_SPELL	(1ULL<< 31)		//ok
+ #define HEALING_SPELL		(1ULL<< 32)		//ok
+ #define PLANE_TRAVELLER	(1ULL<< 33)		//ok
+ #define LIFE_CASTER		(1ULL<< 34)		//ok
+ #define DEATH_CASTER		(1ULL<< 35)		//ok
+ #define CHAOS_CASTER		(1ULL<< 36)		//ok
+ #define NATURE_CASTER		(1ULL<< 37)		//ok
+ #define SORCERY_CASTER		(1ULL<< 38)		//ok
+ #define IMMUNE_TO_WEAPONS	(1ULL<< 39)		//?
+ #define BOAT_SAPPER		(1ULL<< 40)		//	(Can cause heavy melee damage to boats)
+ #define LUCKY			(1ULL<< 41)		//	@@
+ #define WATER_INVISIBILITY	(1ULL<< 42)		//	(Lurks underwater)
+ #define RESISTANCE_BONUS	(1ULL<< 43)		//	(Resistance for All)
+ #define CRAFTMAN		(1ULL<< 44)		//	(Builds Catapults)
+
+ #define NON_CORPORAL		(1ULL<< 45)		//	@@
+ #define TELEPORT		(1ULL<< 46)		//	@@
+ #define MERGING		(1ULL<< 47)		//	@@
+ #define MOUNTANEER		(1ULL<< 48)		//	@@
+ #define PATHFINDER		(1ULL<< 49)		//	@@
+ #define FORESTER		(1ULL<< 50)		//	@@
+ #define WIND_WALKER		(1ULL<< 51)		//	@@
+ #define MELD_WITH_NODE		(1ULL<< 52)		//	@@
+ #define WEB_SPELL		(1ULL<< 53)		//	@@
+ #define SUMMON_DEMONS		(1ULL<< 54)		//	@@
+ #define UNDEAD			(1ULL<< 55)		//	@@
+ #define CARRIER		(1ULL<< 56)		//	(Can load other units)
+ #define LIGHTNING_BREATHE	(1ULL<< 57)		//counter
+ #define BERSERKER		(1ULL<< 60)		//	?
+
+[EOF]==========================================================================
